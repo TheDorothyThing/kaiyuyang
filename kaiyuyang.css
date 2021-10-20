@@ -7,6 +7,14 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #fcfcfc;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 #header {
@@ -31,13 +39,49 @@ body {
 }
 
 #h-btn-work {
+  width: 75px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  background-color: #ffffff00;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
   white-space: nowrap;
-  margin-left: calc(100% - 420px);
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin-left: calc(100% - 480px);
 }
 
 #h-btn-about {
+  width: 75px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  background-color: #ffffff00;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
   white-space: nowrap;
+  -webkit-transition: .2s;
+  transition: .2s;
   margin-left: 36px;
+}
+
+#h-btn-work:hover {
+  background-color: #1a1a1a08;
+}
+
+#h-btn-about:hover {
+  background-color: #1a1a1a08;
+}
+
+#h-btn-work:active {
+  background-color: #1a1a1a12;
+}
+
+#h-btn-about:active {
+  background-color: #1a1a1a12;
 }
 
 #h-btn-resume {
@@ -46,6 +90,7 @@ body {
 }
 
 #homecontent {
+  width: 100%;
   margin-top: 80px;
 }
 
@@ -101,38 +146,90 @@ body {
   font-family: "Montserrat";
 }
 
-#project-securedvideoconference {
+#circle-container {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: -1;
 }
 
-#project-kaomojiru {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+#circle1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: #f7f7f7;
+  position: relative;
+  left: 48px;
 }
 
-#project-meetingscheduling {
+#circle2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+#circle3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: #f7f7f7;
+  position: relative;
+  right: 48px;
+}
+
+.project {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 48px 100px;
+}
+
+.project_content {
+  width: 308px;
+  height: 100%;
 }
 
 .project_img {
-  max-width: 858px;
+  max-width: calc(100% - 508);
+  overflow: scroll;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+}
+
+.project_img::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.project_img img {
   height: 544px;
 }
 
 #footer {
+  height: 100px;
+  font-family: "Montserrat";
   font-size: 12px;
   font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

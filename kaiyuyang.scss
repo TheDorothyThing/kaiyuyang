@@ -2,6 +2,12 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #fcfcfc;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 #header{
@@ -22,12 +28,21 @@ body{
 }
 
 @mixin h-btn {
+    width: 75px;
+    height: 32px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff00;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
     white-space: nowrap;
+    transition: .2s;
 }
 
 #h-btn-work{
     @include h-btn;
-    margin-left: calc(100% - 420px);
+    margin-left: calc(100% - 480px);
 }
 
 #h-btn-about{
@@ -35,12 +50,39 @@ body{
     margin-left:36px;
 }
 
+@mixin h-btn-hover {
+    background-color: #1a1a1a08;
+}
+
+#h-btn-work:hover{
+    @include h-btn-hover;
+}
+
+#h-btn-about:hover{
+    @include h-btn-hover;
+}
+
+@mixin h-btn-active {
+    background-color: #1a1a1a12;
+}
+
+#h-btn-work:active{
+    @include h-btn-active;
+}
+
+#h-btn-about:active{
+    @include h-btn-active;
+}
+
+
+
 #h-btn-resume{
-    @include h-btn;
+    white-space: nowrap;
     margin-left:36px;
 }
 
 #homecontent{
+    width: 100%;
     margin-top: 80px;
 }
 
@@ -89,31 +131,76 @@ body{
     font-family: "Montserrat";
 }
 
-@mixin project{
+#circle-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+@mixin circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+#circle1{
+    @include circle;
+    left: 48px;
+}
+
+#circle2{
+    @include circle;
+}
+
+#circle3{
+    @include circle;
+    right: 48px;
+}
+
+.project{
     display: flex;
     flex-wrap: wrap;
+    padding: 48px 100px;
 }
 
-#project-securedvideoconference{
-    @include project;
-}
-
-#project-kaomojiru{
-    @include project;
-}
-
-#project-meetingscheduling{
-    @include project;
+.project_content{
+    width: 308px;
+    height: 100%;
 }
 
 .project_img{
-    max-width: 858px;
-    height: 544px;
+    max-width: calc(100% - 508);
+    overflow: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
+.project_img::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.project_img img{
+    height: 544px;
+    // filter: grayscale(100%);
+    // transition: 0.35s;
+}
+
+// .project_img:hover{
+//     filter: grayscale(0%);
+// }
+
 #footer{
+    height: 100px;
+    font-family: "Montserrat";
     font-size: 12px;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center; 
 }
