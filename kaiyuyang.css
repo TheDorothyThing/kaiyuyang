@@ -6,7 +6,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
@@ -29,14 +29,14 @@ body::-webkit-scrollbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   z-index: 5;
 }
 
 #logo {
   font-family: "Montserrat";
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #h-btn-work {
@@ -48,7 +48,7 @@ body::-webkit-scrollbar {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   white-space: nowrap;
   -webkit-transition: .2s;
   transition: .2s;
@@ -64,7 +64,7 @@ body::-webkit-scrollbar {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   white-space: nowrap;
   -webkit-transition: .2s;
   transition: .2s;
@@ -100,7 +100,7 @@ body::-webkit-scrollbar {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   white-space: nowrap;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -135,15 +135,15 @@ body::-webkit-scrollbar {
 
 #selfintroduction h2:nth-child(1) {
   font-size: 28px;
-  font-weight: 600;
-  letter-spacing: .25px;
+  font-weight: 700;
+  letter-spacing: .3px;
   line-height: 1.25;
 }
 
 #selfintroduction h2:nth-child(2) {
   font-size: 24px;
   font-weight: 600;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   margin-top: 24px;
   line-height: 1.25;
 }
@@ -153,7 +153,7 @@ body::-webkit-scrollbar {
   margin-top: 60px;
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   line-height: 1.5;
 }
 
@@ -161,8 +161,8 @@ body::-webkit-scrollbar {
   max-width: 712px;
   margin-top: 24px;
   font-size: 12px;
-  font-weight: 400;
-  letter-spacing: .25px;
+  font-weight: 500;
+  letter-spacing: .3px;
   line-height: 1.3;
 }
 
@@ -192,7 +192,7 @@ body::-webkit-scrollbar {
   width: 300px;
   height: 300px;
   border-radius: 150px;
-  background-color: #f7f7f7;
+  background-color: #f4f4f4;
   position: relative;
   left: 48px;
 }
@@ -201,7 +201,7 @@ body::-webkit-scrollbar {
   width: 300px;
   height: 300px;
   border-radius: 150px;
-  background-color: #f7f7f7;
+  background-color: #f4f4f4;
   position: relative;
 }
 
@@ -209,7 +209,7 @@ body::-webkit-scrollbar {
   width: 300px;
   height: 300px;
   border-radius: 150px;
-  background-color: #f7f7f7;
+  background-color: #f4f4f4;
   position: relative;
   right: 48px;
 }
@@ -254,8 +254,8 @@ body::-webkit-scrollbar {
   margin-top: 32px;
   font-family: "Noto Sans Traditional Chinese";
   font-size: 24px;
-  font-weight: 600;
-  letter-spacing: .25px;
+  font-weight: 700;
+  letter-spacing: .3px;
   text-align: center;
   line-height: 2.25;
   background-color: #ffffff;
@@ -270,7 +270,7 @@ body::-webkit-scrollbar {
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 600;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   text-align: center;
   line-height: 3;
   background-color: #ffffff;
@@ -297,7 +297,7 @@ body::-webkit-scrollbar {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 600;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   text-align: center;
   line-height: 1.7;
   border-style: solid;
@@ -315,7 +315,7 @@ body::-webkit-scrollbar {
   font-family: "Noto Sans Traditional Chinese";
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   line-height: 1.45;
 }
 
@@ -324,8 +324,8 @@ body::-webkit-scrollbar {
   margin-top: 20px;
   font-family: "Montserrat";
   font-size: 12px;
-  font-weight: 500;
-  letter-spacing: .25px;
+  font-weight: 400;
+  letter-spacing: .3px;
   line-height: 1.45;
 }
 
@@ -334,7 +334,7 @@ body::-webkit-scrollbar {
   font-family: "Montserrat";
   font-size: 12px;
   font-weight: 400;
-  letter-spacing: .25px;
+  letter-spacing: .3px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
