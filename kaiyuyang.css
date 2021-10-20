@@ -1,0 +1,141 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fcfcfc;
+}
+
+#header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0px 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fcfcfc;
+}
+
+#logo {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#h-btn-work {
+  white-space: nowrap;
+  margin-left: calc(100% - 420px);
+}
+
+#h-btn-about {
+  white-space: nowrap;
+  margin-left: 36px;
+}
+
+#h-btn-resume {
+  white-space: nowrap;
+  margin-left: 36px;
+}
+
+#homecontent {
+  margin-top: 80px;
+}
+
+#selfintroduction {
+  padding: 60px 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#selfintroduction h2:nth-child(1) {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+#selfintroduction h2:nth-child(2) {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+  line-height: 1.25;
+}
+
+#selfintroduction p:nth-child(3) {
+  max-width: 712px;
+  margin-top: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#selfintroduction p:nth-child(4) {
+  max-width: 712px;
+  margin-top: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.TC {
+  font-family: "Noto Sans Traditional Chinese";
+}
+
+.Eng {
+  font-family: "Montserrat";
+}
+
+#project-securedvideoconference {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#project-kaomojiru {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#project-meetingscheduling {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project_img {
+  max-width: 858px;
+  height: 544px;
+}
+
+#footer {
+  font-size: 12px;
+  font-weight: 400;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=kaiyuyang.css.map */
