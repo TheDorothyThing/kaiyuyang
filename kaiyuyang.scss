@@ -11,8 +11,8 @@ body::-webkit-scrollbar {
 }
 
 #header{
+    width: 100vw;
     height: 80px;
-    width: 100%;
     position: fixed;
     top: 0;
     padding: 0px 36px;
@@ -20,6 +20,7 @@ body::-webkit-scrollbar {
     align-items: center;
     background-color: #fafafa;
     z-index: 5;
+    box-sizing: border-box;
 }
 
 #logo{
@@ -44,16 +45,17 @@ body::-webkit-scrollbar {
     @include letterspacing;
     white-space: nowrap;
     transition: .2s;
+    cursor: pointer;
 }
 
 #h-btn-work{
     @include h-btn;
-    margin-left: calc(100% - 520px);
+    margin-left: calc(100% - 432px);
 }
 
 #h-btn-about{
     @include h-btn;
-    margin-left:36px;
+    margin-left:24px;
 }
 
 @mixin h-btn-hover {
@@ -81,9 +83,9 @@ body::-webkit-scrollbar {
 }
 
 #h-btn-resume{
+    width: 172px;
     height: 36px;
-    padding: 0px 16px;
-    margin-left:36px;
+    margin-left:24px;
     border-style: solid;
     border-width: 3px;
     border-color: #1a1a1a;
@@ -96,6 +98,7 @@ body::-webkit-scrollbar {
     @include letterspacing;
     white-space: nowrap;
     box-sizing: border-box;
+    cursor: pointer;
     transition: .2s;
 }
 
@@ -105,7 +108,7 @@ body::-webkit-scrollbar {
 }
 
 #homecontent{
-    width: 100%;
+    width: 100vw;
     margin-top: 80px;
 }
 
@@ -113,8 +116,14 @@ body::-webkit-scrollbar {
     padding: 60px 36px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url(img_home/home-img-circles.svg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 #selfintroduction h2:nth-child(1){
@@ -158,40 +167,13 @@ body::-webkit-scrollbar {
     font-family: "Montserrat";
 }
 
-#circle-container{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: -1;
-}
-
-@mixin circle {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    background-color: #f4f4f4;
-    position: relative;
-}
-
-#circle1{
-    @include circle;
-    left: 48px;
-}
-
-#circle2{
-    @include circle;
-}
-
-#circle3{
-    @include circle;
-    right: 48px;
-}
-
 .project{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    justify-content: center;
     padding: 48px 100px;
+    box-sizing: border-box;
 }
 
 .project_content{
@@ -201,7 +183,7 @@ body::-webkit-scrollbar {
 }
 
 .project_img{
-    max-width: calc(100% - 508);
+    max-width: calc(100% -308px);
     overflow: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */

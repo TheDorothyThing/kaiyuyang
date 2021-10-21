@@ -18,8 +18,8 @@ body::-webkit-scrollbar {
 }
 
 #header {
+  width: 100vw;
   height: 80px;
-  width: 100%;
   position: fixed;
   top: 0;
   padding: 0px 36px;
@@ -31,6 +31,8 @@ body::-webkit-scrollbar {
           align-items: center;
   background-color: #fafafa;
   z-index: 5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #logo {
@@ -52,7 +54,8 @@ body::-webkit-scrollbar {
   white-space: nowrap;
   -webkit-transition: .2s;
   transition: .2s;
-  margin-left: calc(100% - 520px);
+  cursor: pointer;
+  margin-left: calc(100% - 432px);
 }
 
 #h-btn-about {
@@ -68,7 +71,8 @@ body::-webkit-scrollbar {
   white-space: nowrap;
   -webkit-transition: .2s;
   transition: .2s;
-  margin-left: 36px;
+  cursor: pointer;
+  margin-left: 24px;
 }
 
 #h-btn-work:hover {
@@ -88,9 +92,9 @@ body::-webkit-scrollbar {
 }
 
 #h-btn-resume {
+  width: 172px;
   height: 36px;
-  padding: 0px 16px;
-  margin-left: 36px;
+  margin-left: 24px;
   border-style: solid;
   border-width: 3px;
   border-color: #1a1a1a;
@@ -104,6 +108,7 @@ body::-webkit-scrollbar {
   white-space: nowrap;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  cursor: pointer;
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -114,7 +119,7 @@ body::-webkit-scrollbar {
 }
 
 #homecontent {
-  width: 100%;
+  width: 100vw;
   margin-top: 80px;
 }
 
@@ -127,10 +132,17 @@ body::-webkit-scrollbar {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  background-image: url(img_home/home-img-circles.svg);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #selfintroduction h2:nth-child(1) {
@@ -174,53 +186,17 @@ body::-webkit-scrollbar {
   font-family: "Montserrat";
 }
 
-#circle-container {
-  position: absolute;
+.project {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  z-index: -1;
-}
-
-#circle1 {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  background-color: #f4f4f4;
-  position: relative;
-  left: 48px;
-}
-
-#circle2 {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  background-color: #f4f4f4;
-  position: relative;
-}
-
-#circle3 {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  background-color: #f4f4f4;
-  position: relative;
-  right: 48px;
-}
-
-.project {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   padding: 48px 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .project_content {
@@ -230,7 +206,7 @@ body::-webkit-scrollbar {
 }
 
 .project_img {
-  max-width: calc(100% - 508);
+  max-width: calc(100% -308px);
   overflow: scroll;
   scrollbar-width: none;
   /* Firefox */
