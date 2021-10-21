@@ -36,9 +36,25 @@ body::-webkit-scrollbar {
 }
 
 #logo {
+  color: #1a1a1a;
   font-family: "Montserrat";
   font-size: 20px;
   font-weight: 700;
+  text-decoration: none;
+}
+
+#logo:hover {
+  color: #606060;
+  text-decoration: none;
+}
+
+#logo:active {
+  color: #808080;
+  text-decoration: none;
+}
+
+#logo:visited {
+  text-decoration: none;
 }
 
 #h-btn-work {
@@ -47,6 +63,15 @@ body::-webkit-scrollbar {
   border: none;
   border-radius: 2px;
   background-color: #ffffff00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 500;
@@ -64,6 +89,15 @@ body::-webkit-scrollbar {
   border: none;
   border-radius: 2px;
   background-color: #ffffff00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 500;
@@ -197,7 +231,7 @@ body::-webkit-scrollbar {
           box-sizing: border-box;
 }
 
-.project_content {
+.project_info {
   width: 308px;
   height: 100%;
   z-index: 2;
@@ -311,7 +345,7 @@ body::-webkit-scrollbar {
 }
 
 .project_passwordinput {
-  width: 200px;
+  width: 212px;
   height: 52px;
   border: 3px solid #1a1a1a;
   border-radius: 2px;

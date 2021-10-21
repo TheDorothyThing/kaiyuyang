@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kaiyuyang.css">
+    <link rel="stylesheet" href="CSSReset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Traditional+Chinese:400,700|Montserrat:400,500,600,700">
+    <title>Secured Video Conference</title>
+</head>
+<body>
+    <div id="header">
+        <a id="logo" href="index.html">kaiyu<br>yang</a>
+        <a id="h-btn-work">work</a>
+        <a id="h-btn-about">about</a>
+        <button id="h-btn-resume">download résumé</button>
+    </div>
+    <div class="projectcontent">
+        <div id="projectpage_svc_header">
+            <h1 id="projectpage_svc_header_TC">保密視訊會議專案</h1>
+            <h1 id="projectpage_svc_header_End">Secured Video Conference</h1>
+        </div>
+        <div class="projectpage_svc_title">
+            <h2 class="projectpage_svc_title_TC">專案背景</h2>
+            <h2 class="projectpage_svc_title_Eng">Background</h2>
+        </div>
+        <div class="projectpage_svc_p">這是一個特定機密客戶組織請求協助開發的專案，使用者是該組織內的成員；從專案經理帶回來的需求可知使用者皆有一定的使用數位產品的知識基礎；整個專案會包含一個前台系統及一個後台系統，前台系統讓組織內的一般使用者能夠發起視訊會議，而後台系統則對前台使用者使用視訊會議系統的情形進行一定程度的控制。<br><br>開發時程是2個月，內部分工上由團隊夥伴Sunny進行前台系統的設計，我負責後台系統的設計。</div>
+        <div class="projectpage_svc_img"></div>
+        <div class="projectpage_svc_img"></div>
+        <div class="projectpage_svc_title">
+            <h2 class="projectpage_svc_title_TC">後台架構</h2>
+            <h2 class="projectpage_svc_title_Eng">Information Architecture</h2>
+        </div>
+        <div class="projectpage_svc_subtitle">如何使只有IT人員可登入使用？</div>
+        <div class="projectpage_svc_p">以登入頁面作為後台系統的初始頁，以後台使用者能或不能輸入正確的帳號密碼來讓系統驗證其是否為IT人員；若不能，則後台使用者被阻擋在登入頁中；若能，則後台使用者進入後台真正的首頁，可開始進行後台操作。</div>
+        <div class="projectpage_svc_img"></div>
+        <div class="projectpage_svc_subtitle">如何創建前台系統的登入資格？</div>
+        <div class="projectpage_svc_p">從專案經理帶回來了一項資訊安全上的要求是「一個登入資格只能登入一台裝置使用」，因此會出現「一個登入資格與一台裝置之間的綁定關係」；在後台我將這個登入資格稱為「裝置帳戶」，於是流程為「裝置帳戶建立後，前台使用者得知該裝置帳戶的認證碼；前台使用者會被配發使用一台裝置後，使用該密碼登入該裝置，使該裝置與該認證碼的裝置帳戶形成綁定關係」。</div>
+        <div class="projectpage_svc_img"></div>
+        <div class="projectpage_svc_p">有了「增」，就需要「刪」與「修」；因此我安排了一個「裝置帳戶管理頁」來使後台使用者進行「新增」、「編輯」及「刪除」的操作。</div>
+        <div class="projectpage_svc_img"></div>
+        <div class="projectpage_svc_subtitle">如何控制每個前台使用者作為會議發起人時所能夠邀請的人員名單？</div>
+        <div class="projectpage_svc_p">決定每位前台使用者能邀請到誰、不能邀請到誰的方式，客戶考慮到這個規則必須是能完全貼合他們的使用情境、且也須是他們能容易完全理解的，因此在專案經理最後帶回了他們所希望的機制是使用者會被加入至群組裡，只有群組內的成員能夠互相邀請；每位使用者能夠被加入到多個群組，因此使用者能邀請與被邀請的對象是這些群組成員的聯集；系統中若有與自己完全沒有共同加入的群組，則自己無法邀請他、他也無法邀請自己。</div>
+    
+    
+    
+    
+    
+    
+    </div>
+
+</body>
+</html>
