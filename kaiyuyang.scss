@@ -1,7 +1,11 @@
+@mixin backgroundcolor {
+    background-color: #f2f2f2;
+}
+
 body{
     display: flex;
     flex-direction: column;
-    background-color: #fafafa;
+    @include backgroundcolor;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
@@ -18,7 +22,7 @@ body::-webkit-scrollbar {
     padding: 0px 36px;
     display: flex;
     align-items: center;
-    background-color: #fafafa;
+    @include backgroundcolor;
     z-index: 5;
     box-sizing: border-box;
 }
@@ -86,9 +90,7 @@ body::-webkit-scrollbar {
     width: 172px;
     height: 36px;
     margin-left:24px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #1a1a1a;
+    border: 3px solid #1a1a1a;
     border-radius: 2px;
     background-color: #1a1a1a;
     color: #ffffff;
@@ -204,18 +206,24 @@ body::-webkit-scrollbar {
 //     filter: grayscale(0%);
 // }
 
+$title-background: #f7f7f7;
+@mixin project_title_shadow{
+    box-shadow: 0px 3px 16px #1a1a1a08;
+}
+
 .project_title_TC{
     width: 360px;
     height: 52px;
-    margin-top: 32px;
+    margin-top: 24px;
     font-family: "Noto Sans Traditional Chinese";
     font-size: 24px;
     font-weight: 700;
     @include letterspacing;
     text-align: center;
     line-height: 2.25;
-    background-color: #ffffff;
+    background-color: $title-background;
     box-sizing: border-box;
+    @include project_title_shadow;
 }
 
 .project_title_Eng{
@@ -228,8 +236,9 @@ body::-webkit-scrollbar {
     @include letterspacing;
     text-align: center;
     line-height: 3;
-    background-color: #ffffff;
+    background-color: $title-background;
     box-sizing: border-box;
+    @include project_title_shadow;
 }
 
 .project_tagcontainer{
@@ -250,9 +259,7 @@ body::-webkit-scrollbar {
     @include letterspacing;
     text-align: center;
     line-height: 1.7;
-    border-style: solid;
-    border-width: 2.8px;
-    border-color: #1a1a1a;
+    border: 2.8px solid #1a1a1a;
     border-radius: 2px;
     box-sizing: border-box;
     white-space: nowrap;
@@ -277,6 +284,85 @@ body::-webkit-scrollbar {
     @include letterspacing;
     line-height: 1.45;
 }
+
+.project_entrancecontainer{
+    width: 276px;
+    margin-top: 28px;
+}
+
+.project_passwordinput{
+    width: 200px;
+    height: 52px;
+    border: 3px solid #1a1a1a;
+    // border-style: solid;
+    // border-width: 3px 0px 3px 3px;
+    // border-color: #1a1a1a;
+    border-radius: 2px;
+    margin-right: 0px;
+    padding: 0px 8px 0px 16px;
+    color: #1a1a1a;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    background-color: $title-background;
+    box-sizing: border-box;
+    outline: none;
+    transition: .2s;
+}
+
+.project_passwordinput::placeholder{
+    color: #aaaaaa;
+}
+
+.project_passwordinput:hover{
+    background-color: #fcfcfc;
+}
+
+.project_passwordbutton{
+    width: 52px;
+    height: 52px;
+    border: 3px solid #1a1a1a;
+    border-radius: 2px;
+    margin-left: 0px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #1a1a1a;
+    box-sizing: border-box;
+    outline: none;
+    transition: .2s;
+}
+
+.project_passwordbutton:hover{
+    background-color: $title-background;
+    color: #1a1a1a;
+}
+
+.project_entrancebutton{
+    width: 100%;
+    height: 52px;
+    border: 3px solid #1a1a1a;
+    border-radius: 2px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    @include letterspacing;
+    white-space: nowrap;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.project_entrancebutton:hover{
+    background-color: #ffffff00;
+    color: #1a1a1a;
+}
+
+
 
 #footer{
     height: 100px;

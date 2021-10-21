@@ -6,7 +6,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #fafafa;
+  background-color: #f2f2f2;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fafafa;
+  background-color: #f2f2f2;
   z-index: 5;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -95,9 +95,7 @@ body::-webkit-scrollbar {
   width: 172px;
   height: 36px;
   margin-left: 24px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #1a1a1a;
+  border: 3px solid #1a1a1a;
   border-radius: 2px;
   background-color: #1a1a1a;
   color: #ffffff;
@@ -227,16 +225,18 @@ body::-webkit-scrollbar {
 .project_title_TC {
   width: 360px;
   height: 52px;
-  margin-top: 32px;
+  margin-top: 24px;
   font-family: "Noto Sans Traditional Chinese";
   font-size: 24px;
   font-weight: 700;
   letter-spacing: .3px;
   text-align: center;
   line-height: 2.25;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-box-shadow: 0px 3px 16px #1a1a1a08;
+          box-shadow: 0px 3px 16px #1a1a1a08;
 }
 
 .project_title_Eng {
@@ -249,9 +249,11 @@ body::-webkit-scrollbar {
   letter-spacing: .3px;
   text-align: center;
   line-height: 3;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-box-shadow: 0px 3px 16px #1a1a1a08;
+          box-shadow: 0px 3px 16px #1a1a1a08;
 }
 
 .project_tagcontainer {
@@ -276,9 +278,7 @@ body::-webkit-scrollbar {
   letter-spacing: .3px;
   text-align: center;
   line-height: 1.7;
-  border-style: solid;
-  border-width: 2.8px;
-  border-color: #1a1a1a;
+  border: 2.8px solid #1a1a1a;
   border-radius: 2px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -303,6 +303,98 @@ body::-webkit-scrollbar {
   font-weight: 400;
   letter-spacing: .3px;
   line-height: 1.45;
+}
+
+.project_entrancecontainer {
+  width: 276px;
+  margin-top: 28px;
+}
+
+.project_passwordinput {
+  width: 200px;
+  height: 52px;
+  border: 3px solid #1a1a1a;
+  border-radius: 2px;
+  margin-right: 0px;
+  padding: 0px 8px 0px 16px;
+  color: #1a1a1a;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f7f7f7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.project_passwordinput::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+
+.project_passwordinput:-ms-input-placeholder {
+  color: #aaaaaa;
+}
+
+.project_passwordinput::-ms-input-placeholder {
+  color: #aaaaaa;
+}
+
+.project_passwordinput::placeholder {
+  color: #aaaaaa;
+}
+
+.project_passwordinput:hover {
+  background-color: #fcfcfc;
+}
+
+.project_passwordbutton {
+  width: 52px;
+  height: 52px;
+  border: 3px solid #1a1a1a;
+  border-radius: 2px;
+  margin-left: 0px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #1a1a1a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.project_passwordbutton:hover {
+  background-color: #f7f7f7;
+  color: #1a1a1a;
+}
+
+.project_entrancebutton {
+  width: 100%;
+  height: 52px;
+  border: 3px solid #1a1a1a;
+  border-radius: 2px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .3px;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.project_entrancebutton:hover {
+  background-color: #ffffff00;
+  color: #1a1a1a;
 }
 
 #footer {
