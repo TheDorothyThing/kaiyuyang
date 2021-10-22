@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="374" height="162" viewBox="0 0 374 162">
+    <defs>
+        <clipPath id="clip">
+            <use xlink:href="#fill"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#717744}.cls-2{fill:#fff;font-size:16px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-3,.cls-5{fill:#1a1a1a}.cls-4,.cls-6{fill:none}.cls-4{stroke:#1a1a1a}.cls-5{font-size:12px;font-family:NotoSansTC-Regular,Noto Sans TC}.cls-7{stroke:none}
+        </style>
+    </defs>
+    <g id="project_svc-img-4" transform="translate(-422 -1696)">
+        <g id="Group_83" data-name="Group 83">
+            <g id="Group_77" data-name="Group 77" transform="translate(209 -13)">
+                <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-1" width="80" height="38" rx="16" transform="translate(353 1717)"/>
+                <text id="登入頁" class="cls-2" transform="translate(369 1743)"><tspan x="0" y="0">登入頁</tspan></text>
+            </g>
+            <g id="Group_78" data-name="Group 78" transform="translate(201 23)">
+                <rect id="Rectangle_72" data-name="Rectangle 72" class="cls-1" width="96" height="38" rx="16" transform="translate(353 1789)"/>
+                <text id="已登出頁" class="cls-2" transform="translate(369 1815)"><tspan x="0" y="0">已登出頁</tspan></text>
+            </g>
+            <g id="Group_76" data-name="Group 76" transform="translate(208 7)">
+                <rect id="Rectangle_71" data-name="Rectangle 71" class="cls-1" width="64" height="38" rx="16" transform="translate(516 1751)"/>
+                <text id="首頁" class="cls-2" transform="translate(532 1777)"><tspan x="0" y="0">首頁</tspan></text>
+            </g>
+            <g id="Group_79" data-name="Group 79" transform="translate(11 -4.271)">
+                <path id="Polygon_2" data-name="Polygon 2" class="cls-3" d="m3.272 0 3.272 5.454H0z" transform="rotate(90 -591.774 1132.226)"/>
+                <g id="Rectangle_73" data-name="Rectangle 73" class="cls-4" transform="translate(487 1727)">
+                    <path class="cls-7" d="M0 0h49v1H0z"/>
+                    <rect class="cls-6" x=".5" y=".5" width="48"/>
+                </g>
+            </g>
+            <g id="Group_82" data-name="Group 82" transform="rotate(-90 582.7 1708.7)">
+                <path id="Polygon_2-2" data-name="Polygon 2" class="cls-3" d="m3.272 0 3.272 5.454H0z" transform="rotate(90 -591.774 1132.226)"/>
+                <g id="Rectangle_73-2" data-name="Rectangle 73" class="cls-4" transform="translate(490 1727)">
+                    <path class="cls-7" d="M0 0h46v1H0z"/>
+                    <rect class="cls-6" x=".5" y=".5" width="45"/>
+                </g>
+            </g>
+            <g id="Group_80" data-name="Group 80" transform="rotate(30 555.015 2067.412)">
+                <path id="Polygon_2-3" data-name="Polygon 2" class="cls-3" d="m3.272 0 3.272 5.454H0z" transform="rotate(90 -591.774 1132.226)"/>
+                <g id="Rectangle_73-3" data-name="Rectangle 73" class="cls-4" transform="translate(470 1727)">
+                    <path class="cls-7" d="M0 0h66v1H0z"/>
+                    <rect class="cls-6" x=".5" y=".5" width="65"/>
+                </g>
+            </g>
+            <g id="Group_81" data-name="Group 81" transform="rotate(150 112.739 999.47)">
+                <path id="Polygon_2-4" data-name="Polygon 2" class="cls-3" d="m3.272 0 3.272 5.454H0z" transform="rotate(90 26.726 26.726)"/>
+                <g id="Rectangle_73-4" data-name="Rectangle 73" class="cls-4" transform="translate(-11 2.545)">
+                    <path id="fill" class="cls-7" d="M0 0h59.999v1H0z"/>
+                    <path d="M0 .5h60m-.5-.5v1m.5-.5H0m.5.5V0" style="clip-path:url(#clip);fill:none"/>
+                </g>
+            </g>
+            <text id="進入後台時" class="cls-5" transform="translate(430 1728)"><tspan x="0" y="0">進入後台時</tspan></text>
+            <text id="登入成功" class="cls-5" transform="translate(676 1737)"><tspan x="0" y="0">登入成功</tspan></text>
+            <text id="登出" class="cls-5" transform="translate(694 1836)"><tspan x="0" y="0">登出</tspan></text>
+            <text id="返回登入頁" class="cls-5" transform="translate(532 1782)"><tspan x="0" y="0">返回登入頁</tspan></text>
+        </g>
+        <path id="Rectangle_74" data-name="Rectangle 74" class="cls-6" transform="translate(422 1696)" d="M0 0h374v162H0z"/>
+    </g>
+</svg>

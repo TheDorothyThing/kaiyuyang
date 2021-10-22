@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 }
 
 #logo{
-    color: #1a1a1a;
+    color: #242424;
     font-family: "Montserrat";
     font-size: 20px;
     font-weight: 700;
@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
 }
 
 @mixin h-btn-hover {
-    background-color: #1a1a1a08;
+    background-color: #24242408;
 }
 
 #h-btn-work:hover{
@@ -94,7 +94,7 @@ body::-webkit-scrollbar {
 }
 
 @mixin h-btn-active {
-    background-color: #1a1a1a12;
+    background-color: #24242412;
 }
 
 #h-btn-work:active{
@@ -109,9 +109,9 @@ body::-webkit-scrollbar {
     width: 172px;
     height: 36px;
     margin-left:24px;
-    border: 3px solid #1a1a1a;
+    border: 3px solid #242424;
     border-radius: 2px;
-    background-color: #1a1a1a;
+    background-color: #242424;
     color: #ffffff;
     font-family: "Montserrat";
     font-size: 14px;
@@ -125,7 +125,7 @@ body::-webkit-scrollbar {
 
 #h-btn-resume:hover{
     background-color: #ffffff00;
-    color: #1a1a1a;
+    color: #242424;
 }
 
 #homecontent{
@@ -227,7 +227,7 @@ body::-webkit-scrollbar {
 
 $title-background: #f7f7f7;
 @mixin project_title_shadow{
-    box-shadow: 0px 3px 16px #1a1a1a08;
+    box-shadow: 0px 3px 16px #24242408;
 }
 
 .project_title_TC{
@@ -278,7 +278,7 @@ $title-background: #f7f7f7;
     @include letterspacing;
     text-align: center;
     line-height: 1.7;
-    border: 2.8px solid #1a1a1a;
+    border: 2.8px solid #242424;
     border-radius: 2px;
     box-sizing: border-box;
     white-space: nowrap;
@@ -312,14 +312,14 @@ $title-background: #f7f7f7;
 .project_passwordinput{
     width: 212px;
     height: 52px;
-    border: 3px solid #1a1a1a;
+    border: 3px solid #242424;
     // border-style: solid;
     // border-width: 3px 0px 3px 3px;
-    // border-color: #1a1a1a;
+    // border-color: #242424;
     border-radius: 2px;
     margin-right: 0px;
     padding: 0px 8px 0px 16px;
-    color: #1a1a1a;
+    color: #242424;
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: 500;
@@ -340,7 +340,7 @@ $title-background: #f7f7f7;
 .project_passwordbutton{
     width: 52px;
     height: 52px;
-    border: 3px solid #1a1a1a;
+    border: 3px solid #242424;
     border-radius: 2px;
     margin-left: 0px;
     color: #ffffff;
@@ -348,7 +348,7 @@ $title-background: #f7f7f7;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
-    background-color: #1a1a1a;
+    background-color: #242424;
     box-sizing: border-box;
     outline: none;
     transition: .2s;
@@ -356,15 +356,15 @@ $title-background: #f7f7f7;
 
 .project_passwordbutton:hover{
     background-color: $title-background;
-    color: #1a1a1a;
+    color: #242424;
 }
 
 .project_entrancebutton{
     width: 100%;
     height: 52px;
-    border: 3px solid #1a1a1a;
+    border: 3px solid #242424;
     border-radius: 2px;
-    background-color: #1a1a1a;
+    background-color: #242424;
     color: #ffffff;
     font-family: "Montserrat";
     font-size: 18px;
@@ -378,10 +378,8 @@ $title-background: #f7f7f7;
 
 .project_entrancebutton:hover{
     background-color: #ffffff00;
-    color: #1a1a1a;
+    color: #242424;
 }
-
-
 
 #footer{
     height: 100px;
@@ -394,3 +392,130 @@ $title-background: #f7f7f7;
     align-items: center;
     text-align: center; 
 }
+
+//project
+
+.projectcontent{
+    width: 100vw;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+//project_svc
+
+#projectpage_svc_header{
+    width: 228px;
+    height: 68px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: #242424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectpage_svc_header_TC{
+    font-family: "Noto Sans Traditional Chinese";
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#projectpage_svc_header_Eng{
+    margin-top: 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.projectpage_svc_title{
+    display: block;
+    margin: 0px 100px 24px 100px;
+    padding: 6px 12px;
+    border: 2px solid #242424;
+    align-self: flex-start;
+}
+
+.projectpage_svc_title_TC{
+    display: inline-block;
+    font-family: "Noto Sans Traditional Chinese";
+    font-size: 18px;
+    font-weight: 500;
+    @include letterspacing;
+}
+
+.projectpage_svc_title_Eng{
+    display: inline-block;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    @include letterspacing;
+}
+
+.projectpage_svc_subtitle{
+    width: calc(100% - 200px);
+    margin: 0px 100px 24px 100px;
+}
+
+.projectpage_svc_subtitle_TC{
+    font-family: "Noto Sans Traditional Chinese";
+    font-size: 16px;
+    font-weight: 600;
+    @include letterspacing;
+    align-self: flex-start;
+}
+
+
+.projectpage_svc_p{
+    width: calc(100% - 200px);
+    margin: 0px 100px 24px 100px;
+}
+
+.projectpage_svc_p_TC{
+    width: 520px;
+    font-family: "Noto Sans Traditional Chinese";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.375;
+    @include letterspacing;
+}
+
+.projectpage_svc_img{
+    width: calc(100% - 200px);
+    background-color: #f8f8f8;
+    margin: 0px 100px 24px 100px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.projectpage_svc_img::-webkit-scrollbar {
+    display: none;
+}
+
+.projectpage_svc_img_scroll{
+    width: 100%;
+    background-color: #f8f8f8;
+    margin: 0px 100px 24px 100px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.projectpage_svc_img_scroll::-webkit-scrollbar {
+    display: none;
+}
+

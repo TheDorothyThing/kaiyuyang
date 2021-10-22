@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="300" viewBox="0 0 370 300">
+    <defs>
+        <clipPath id="clip">
+            <use xlink:href="#fill"/>
+        </clipPath>
+        <clipPath id="clip-2">
+            <use xlink:href="#fill-2"/>
+        </clipPath>
+        <clipPath id="clip-3">
+            <use xlink:href="#fill-3"/>
+        </clipPath>
+        <style>
+            .cls-1,.cls-4,.cls-6{fill:#1a1a1a}.cls-1{font-size:12px;font-family:NotoSansTC-Regular,Noto Sans TC}.cls-5{fill:#fff}.cls-3{fill:#e0e0c3}.cls-4{font-size:14px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-5{opacity:.5}.cls-7{fill:none;stroke:#1a1a1a}.cls-9{stroke:none}
+        </style>
+    </defs>
+    <g id="project_svc-img-5" transform="translate(-500 -2129)">
+        <text id="被配發使用" class="cls-1" transform="translate(547 2263)"><tspan x="0" y="0">被配發使用</tspan></text>
+        <text id="給予認證碼" class="cls-1" transform="translate(762 2263)"><tspan x="0" y="0">給予認證碼</tspan></text>
+        <text id="登入並綁定" class="cls-1" transform="translate(655 2391)"><tspan x="0" y="0">登入並綁定</tspan></text>
+        <g id="Group_95" data-name="Group 95" transform="translate(2)">
+            <circle id="Ellipse_18" data-name="Ellipse 18" cx="64" cy="64" r="64" transform="translate(619 2129)" style="opacity:.501;fill:#fff"/>
+            <circle id="Ellipse_15" data-name="Ellipse 15" class="cls-3" cx="10.5" cy="10.5" r="10.5" transform="translate(673 2183)"/>
+            <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-3" cx="10.5" cy="10.5" r="10.5" transform="translate(653 2211)"/>
+            <circle id="Ellipse_17" data-name="Ellipse 17" class="cls-3" cx="10.5" cy="10.5" r="10.5" transform="translate(693 2211)"/>
+            <text id="前台使用者" class="cls-4" transform="translate(683 2166)"><tspan x="-35" y="0">前台使用者</tspan></text>
+        </g>
+        <g id="Group_94" data-name="Group 94" transform="translate(0 1)">
+            <circle id="Ellipse_19" data-name="Ellipse 19" class="cls-5" cx="64" cy="64" r="64" transform="translate(500 2300)"/>
+            <text id="裝置" class="cls-4" transform="translate(564 2334)"><tspan x="-14" y="0">裝置</tspan></text>
+            <g id="Group_92" data-name="Group 92">
+                <path id="Rectangle_76" data-name="Rectangle 76" class="cls-3" transform="translate(536 2353)" d="M0 0h20v20H0z"/>
+                <path id="Rectangle_77" data-name="Rectangle 77" class="cls-3" transform="translate(546 2389)" d="M0 0h20v20H0z"/>
+                <path id="Rectangle_78" data-name="Rectangle 78" class="cls-3" transform="translate(571 2360)" d="M0 0h20v20H0z"/>
+            </g>
+        </g>
+        <g id="Group_93" data-name="Group 93" transform="translate(1 1)">
+            <circle id="Ellipse_20" data-name="Ellipse 20" class="cls-5" cx="64" cy="64" r="64" transform="translate(741 2300)"/>
+            <text id="裝置帳戶" class="cls-4" transform="translate(804 2334)"><tspan x="-28" y="0">裝置帳戶</tspan></text>
+            <g id="Group_91" data-name="Group 91" transform="translate(16 20)">
+                <path id="Polygon_3" data-name="Polygon 3" class="cls-3" d="m12 0 12 21H0z" transform="translate(758 2336)"/>
+                <path id="Polygon_4" data-name="Polygon 4" class="cls-3" d="m12 0 12 21H0z" transform="translate(797 2336)"/>
+                <path id="Polygon_5" data-name="Polygon 5" class="cls-3" d="m11 0 11 21H0z" transform="translate(779 2366)"/>
+            </g>
+        </g>
+        <g id="Group_87" data-name="Group 87" transform="rotate(-135 861.089 986.534)">
+            <path id="Polygon_2" data-name="Polygon 2" class="cls-6" d="m3.272 0 3.272 5.454H0z" transform="rotate(90 26.726 26.727)"/>
+            <g id="Rectangle_73" data-name="Rectangle 73" class="cls-7" transform="translate(0 3.001)">
+                <path id="fill" class="cls-9" d="M0 0h49v1H0z"/>
+                <path d="M0 .5h49m-.5-.5v1m.5-.5H0m.5.5V0" style="clip-path:url(#clip);fill:none"/>
+            </g>
+        </g>
+        <g id="Group_89" data-name="Group 89" transform="translate(676 2361.938)">
+            <path id="Polygon_2-2" data-name="Polygon 2" class="cls-6" d="m3.272 0 3.272 5.454H0z" transform="rotate(90 26.726 26.727)"/>
+            <g id="Rectangle_73-2" data-name="Rectangle 73" class="cls-7" transform="translate(-37 3.001)">
+                <path id="fill-2" class="cls-9" d="M0 0h86v1H0z"/>
+                <path d="M0 .5h86m-.5-.5v1m.5-.5H0m.5.5V0" style="clip-path:url(#clip-2);fill:none"/>
+            </g>
+        </g>
+        <g id="Group_88" data-name="Group 88" transform="rotate(135 -151.068 1258.493)">
+            <path id="Polygon_2-3" data-name="Polygon 2" class="cls-6" d="m3.272 0 3.272 5.454H0z" transform="rotate(90 26.726 26.726)"/>
+            <g id="Rectangle_73-3" data-name="Rectangle 73" class="cls-7" transform="translate(0 2.545)">
+                <path id="fill-3" class="cls-9" d="M0 0h48.999v1H0z"/>
+                <path d="M0 .5h49m-.5-.5v1m.5-.5H0m.5.5V0" style="clip-path:url(#clip-3);fill:none"/>
+            </g>
+        </g>
+        <path id="Rectangle_79" data-name="Rectangle 79" transform="translate(500 2129)" style="fill:none" d="M0 0h370v300H0z"/>
+    </g>
+</svg>

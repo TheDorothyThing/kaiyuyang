@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="714" viewBox="0 0 920 714">
+    <defs>
+        <style>
+            .cls-1{fill:#717744}.cls-2,.cls-5{fill:#fff}.cls-2,.cls-7{font-size:16px}.cls-2,.cls-6{font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-3{fill:#e0e0c3;opacity:.6}.cls-4,.cls-6,.cls-7{fill:#1a1a1a}.cls-4,.cls-6{font-size:14px}.cls-4,.cls-7{font-family:NotoSansTC-Regular,Noto Sans TC}
+        </style>
+    </defs>
+    <g id="project_svc-img-14" transform="translate(-235 -9091)">
+        <g id="Group_223" data-name="Group 223" transform="translate(-289 7396)">
+            <rect id="Rectangle_71" data-name="Rectangle 71" class="cls-1" width="32" height="80" rx="8" transform="translate(524 1751)"/>
+            <text id="登_入_頁" data-name="登 入頁" class="cls-2" transform="translate(532 1778)"><tspan x="0" y="0">登</tspan><tspan x="0" y="20">入</tspan><tspan x="0" y="40">頁</tspan></text>
+        </g>
+        <g id="Group_224" data-name="Group 224" transform="translate(-443 6522)">
+            <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-3" width="144" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="輸入帳號密碼登入" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">輸入帳號密碼登入</tspan></text>
+        </g>
+        <g id="Group_233" data-name="Group 233" transform="translate(-491 6442)">
+            <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-5" width="192" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="任務操作" class="cls-6" transform="translate(822 2671)"><tspan x="-28" y="0">任務操作</tspan></text>
+        </g>
+        <g id="Group_234" data-name="Group 234" transform="translate(-261 6442)">
+            <rect id="Rectangle_70-3" data-name="Rectangle 70" class="cls-5" width="326" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="錯誤情境" class="cls-6" transform="translate(889 2671)"><tspan x="-28" y="0">錯誤情境</tspan></text>
+        </g>
+        <g id="Group_235" data-name="Group 235" transform="translate(103 6442)">
+            <rect id="Rectangle_70-4" data-name="Rectangle 70" class="cls-5" width="326" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="解決方式" class="cls-6" transform="translate(889 2671)"><tspan x="-28" y="0">解決方式</tspan></text>
+        </g>
+        <g id="Group_225" data-name="Group 225" transform="translate(-289 7467)">
+            <rect id="Rectangle_71-2" data-name="Rectangle 71" class="cls-1" width="32" height="60" rx="8" transform="translate(524 1788)"/>
+            <text id="首_頁" data-name="首 頁" class="cls-2" transform="translate(532 1815)"><tspan x="0" y="0">首</tspan><tspan x="0" y="20">頁</tspan></text>
+        </g>
+        <g id="Group_226" data-name="Group 226" transform="translate(-443 6668)">
+            <rect id="Rectangle_70-5" data-name="Rectangle 70" class="cls-3" width="130" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="上傳資料備份檔" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">上傳資料備份檔</tspan></text>
+        </g>
+        <g id="Group_227" data-name="Group 227" transform="translate(-289 7706)">
+            <rect id="Rectangle_71-3" data-name="Rectangle 71" class="cls-1" width="32" height="160" rx="8" transform="translate(524 1751)"/>
+            <text id="裝_置_帳_戶_管_理_頁" data-name="裝 置帳 戶管 理頁" class="cls-2" transform="translate(532 1778)"><tspan x="0" y="0">裝</tspan><tspan x="0" y="20">置</tspan><tspan x="0" y="40">帳</tspan><tspan x="0" y="60">戶</tspan><tspan x="0" y="80">管</tspan><tspan x="0" y="100">理</tspan><tspan x="0" y="120">頁</tspan></text>
+        </g>
+        <g id="Group_228" data-name="Group 228" transform="translate(-443 6864)">
+            <rect id="Rectangle_70-6" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="新增裝置帳戶" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">新增裝置帳戶</tspan></text>
+        </g>
+        <g id="Group_229" data-name="Group 229" transform="translate(-443 6956)">
+            <rect id="Rectangle_70-7" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶加入群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶加入群組</tspan></text>
+        </g>
+        <g id="Group_230" data-name="Group 230" transform="translate(-289 7886)">
+            <rect id="Rectangle_71-4" data-name="Rectangle 71" class="cls-1" width="32" height="120" rx="8" transform="translate(524 1781)"/>
+            <text id="群_組_管_理_頁" data-name="群 組管 理頁" class="cls-2" transform="translate(532 1808)"><tspan x="0" y="0">群</tspan><tspan x="0" y="20">組</tspan><tspan x="0" y="40">管</tspan><tspan x="0" y="60">理</tspan><tspan x="0" y="80">頁</tspan></text>
+        </g>
+        <g id="Group_231" data-name="Group 231" transform="translate(-443 7154)">
+            <rect id="Rectangle_70-8" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶加入群組-2" data-name="將裝置帳戶加入群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶加入群組</tspan></text>
+        </g>
+        <g id="Group_232" data-name="Group 232" transform="translate(-443 7066)">
+            <rect id="Rectangle_70-9" data-name="Rectangle 70" class="cls-3" width="88" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="新增群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">新增群組</tspan></text>
+        </g>
+        <text id="_1._輸入錯誤的後台帳號密碼_2._伺服器忙碌中_" data-name="1. 輸入錯誤的後台帳號密碼。 2. 伺服器忙碌中。" class="cls-7" transform="translate(465 9175)"><tspan x="0" y="19">1. 輸入錯誤的後台帳號密碼。</tspan><tspan x="0" y="41">2. 伺服器忙碌中。</tspan></text>
+        <text id="阻擋使用者登入系統_停留在登入頁_" data-name="阻擋使用者登入系統，停留在登入頁。" class="cls-7" transform="translate(829 9175)"><tspan x="0" y="19">阻擋使用者登入系統，停留在登入頁。</tspan></text>
+        <text id="跳出解釋錯誤情況的Dialog_並捨棄這次的上傳嘗試_" data-name="跳出解釋錯誤情況的Dialog，並捨棄這次的上傳嘗試。" class="cls-7" transform="translate(829 9269)"><tspan x="0" y="19">跳出解釋錯誤情況的</tspan><tspan y="19">Dialog，</tspan><tspan y="19">並捨棄這次的上</tspan><tspan x="0" y="41">傳嘗試。</tspan></text>
+        <text id="在Dialog上顯示錯誤情況的解釋訊息_並停留在Dialog上_" data-name="在Dialog上顯示錯誤情況的解釋訊息，並停留在Dialog上。" class="cls-7" transform="translate(829 9465)"><tspan x="0" y="19">在</tspan><tspan y="19">Dialog</tspan><tspan y="19">上顯示錯誤情況的解釋訊息，並停留</tspan><tspan x="0" y="41">在</tspan><tspan y="41">Dialog</tspan><tspan y="41">上。</tspan></text>
+        <text id="在Dialog上顯示錯誤情況的解釋訊息_並停留在Dialog上_2" data-name="在Dialog上顯示錯誤情況的解釋訊息，並停留在Dialog上。" class="cls-7" transform="translate(829 9667)"><tspan x="0" y="19">在</tspan><tspan y="19">Dialog</tspan><tspan y="19">上顯示錯誤情況的解釋訊息，並停留</tspan><tspan x="0" y="41">在</tspan><tspan y="41">Dialog</tspan><tspan y="41">上。</tspan></text>
+        <text id="若尚未選擇任何裝置帳戶_則_確定執行_的按鈕為Disabled狀態_" data-name="若尚未選擇任何裝置帳戶，則「確定執行」的按鈕為Disabled狀態。" class="cls-7" transform="translate(829 9561)"><tspan x="0" y="19">若尚未選擇任何裝置帳戶，則「確定執行」的</tspan><tspan x="0" y="41">按鈕為</tspan><tspan y="41">Disabled</tspan><tspan y="41">狀態。</tspan></text>
+        <text id="若尚未選擇任何裝置帳戶_則_確定執行_的按鈕為Disabled狀態_2" data-name="若尚未選擇任何裝置帳戶，則「確定執行」的按鈕為Disabled狀態。" class="cls-7" transform="translate(829 9759)"><tspan x="0" y="19">若尚未選擇任何裝置帳戶，則「確定執行」的</tspan><tspan x="0" y="41">按鈕為</tspan><tspan y="41">Disabled</tspan><tspan y="41">狀態。</tspan></text>
+        <text id="_1._尚未選擇任何裝置帳戶即點擊確定執行_" data-name="1. 尚未選擇任何裝置帳戶即點擊確定執行。" class="cls-7" transform="translate(465 9561)"><tspan x="0" y="19">1. 尚未選擇任何裝置帳戶即點擊確定執行。</tspan></text>
+        <text id="_1._尚未選擇任何裝置帳戶即點擊確定執行_2" data-name="1. 尚未選擇任何裝置帳戶即點擊確定執行。" class="cls-7" transform="translate(465 9759)"><tspan x="0" y="19">1. 尚未選擇任何裝置帳戶即點擊確定執行。</tspan></text>
+        <text id="_1._裝置帳戶認證碼過長_2._裝置帳戶認證碼輸入了不合法的字符_3._已存在相同認證碼的裝置帳戶_4._群組名稱過長_5._群組名稱輸入了不合法的字符_6._群組中的裝置帳戶尚不存在_7._JSON檔格式有誤_" data-name="1. 裝置帳戶認證碼過長。 2. 裝置帳戶認證碼輸入了不合法的字符。 3. 已存在相同認證碼的裝置帳戶。 4. 群組名稱過長。 5. 群組名稱輸入了不合法的字符。 6. 群組中的裝置帳戶尚不存在。 7. JSON檔格式有誤。" class="cls-7" transform="translate(465 9269)"><tspan x="0" y="19">1. 裝置帳戶認證碼過長。</tspan><tspan x="0" y="41">2. 裝置帳戶認證碼輸入了不合法的字符。</tspan><tspan x="0" y="63">3. 已存在相同認證碼的裝置帳戶。</tspan><tspan x="0" y="85">4. 群組名稱過長。</tspan><tspan x="0" y="107">5. 群組名稱輸入了不合法的字符。</tspan><tspan x="0" y="129">6. 群組中的裝置帳戶尚不存在。</tspan><tspan x="0" y="151">7. </tspan><tspan y="151">JSON</tspan><tspan y="151">檔格式有誤。</tspan></text>
+        <text id="_1._裝置帳戶認證碼過長_2._裝置帳戶認證碼輸入了不合法的字符_3._已存在相同認證碼的裝置帳戶_" data-name="1. 裝置帳戶認證碼過長。 2. 裝置帳戶認證碼輸入了不合法的字符。 3. 已存在相同認證碼的裝置帳戶。" class="cls-7" transform="translate(465 9465)"><tspan x="0" y="19">1. 裝置帳戶認證碼過長。</tspan><tspan x="0" y="41">2. 裝置帳戶認證碼輸入了不合法的字符。</tspan><tspan x="0" y="63">3. 已存在相同認證碼的裝置帳戶。</tspan></text>
+        <text id="_1._群組名稱過長_2._群組名稱輸入了不合法的字符_3._已存在同名的群組_" data-name="1. 群組名稱過長。 2. 群組名稱輸入了不合法的字符。 3. 已存在同名的群組。" class="cls-7" transform="translate(465 9667)"><tspan x="0" y="19">1. 群組名稱過長。</tspan><tspan x="0" y="41">2. 群組名稱輸入了不合法的字符。</tspan><tspan x="0" y="63">3. 已存在同名的群組。</tspan></text>
+    </g>
+</svg>

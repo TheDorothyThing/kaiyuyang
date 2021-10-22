@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="916" height="1152" viewBox="0 0 916 1152">
+    <defs>
+        <style>
+            .cls-1{fill:#717744}.cls-2{fill:#fff;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-2,.cls-5{font-size:16px}.cls-3{fill:#e0e0c3;opacity:.6}.cls-4,.cls-5{fill:#1a1a1a;font-family:NotoSansTC-Regular,Noto Sans TC}.cls-4{font-size:14px}
+        </style>
+    </defs>
+    <g id="project_svc-img-13" transform="translate(-136 -7697)">
+        <g id="Group_191" data-name="Group 191" transform="translate(-388 6182)">
+            <rect id="Rectangle_71" data-name="Rectangle 71" class="cls-1" width="32" height="128" rx="8" transform="translate(524 1751)"/>
+            <text id="首_頁" data-name="首 頁" class="cls-2" transform="translate(532 1812)"><tspan x="0" y="0">首</tspan><tspan x="0" y="20">頁</tspan></text>
+        </g>
+        <g id="Group_213" data-name="Group 213" transform="translate(-388 6054)">
+            <rect id="Rectangle_71-2" data-name="Rectangle 71" class="cls-1" width="32" height="100" rx="8" transform="translate(524 1751)"/>
+            <text id="已_登_出_頁" data-name="已 登出 頁" class="cls-2" transform="translate(532 1778)"><tspan x="0" y="0">已</tspan><tspan x="0" y="20">登</tspan><tspan x="0" y="40">出</tspan><tspan x="0" y="60">頁</tspan></text>
+        </g>
+        <g id="Group_215" data-name="Group 215" transform="translate(-388 6338)">
+            <rect id="Rectangle_71-3" data-name="Rectangle 71" class="cls-1" width="32" height="160" rx="8" transform="translate(524 1751)"/>
+            <text id="視_訊_會_議_管_理_頁" data-name="視 訊會 議管 理頁" class="cls-2" transform="translate(532 1778)"><tspan x="0" y="0">視</tspan><tspan x="0" y="20">訊</tspan><tspan x="0" y="40">會</tspan><tspan x="0" y="60">議</tspan><tspan x="0" y="80">管</tspan><tspan x="0" y="100">理</tspan><tspan x="0" y="120">頁</tspan></text>
+        </g>
+        <g id="Group_216" data-name="Group 216" transform="translate(-388 6526)">
+            <rect id="Rectangle_71-4" data-name="Rectangle 71" class="cls-1" width="32" height="368" rx="8" transform="translate(524 1751)"/>
+            <text id="裝_置_帳_戶_管_理_頁" data-name="裝 置帳 戶管 理頁" class="cls-2" transform="translate(532 1882)"><tspan x="0" y="0">裝</tspan><tspan x="0" y="20">置</tspan><tspan x="0" y="40">帳</tspan><tspan x="0" y="60">戶</tspan><tspan x="0" y="80">管</tspan><tspan x="0" y="100">理</tspan><tspan x="0" y="120">頁</tspan></text>
+        </g>
+        <g id="Group_217" data-name="Group 217" transform="translate(-388 6892)">
+            <rect id="Rectangle_71-5" data-name="Rectangle 71" class="cls-1" width="32" height="176" rx="8" transform="translate(524 1781)"/>
+            <text id="群_組_管_理_頁" data-name="群 組管 理頁" class="cls-2" transform="translate(532 1836)"><tspan x="0" y="0">群</tspan><tspan x="0" y="20">組</tspan><tspan x="0" y="40">管</tspan><tspan x="0" y="60">理</tspan><tspan x="0" y="80">頁</tspan></text>
+        </g>
+        <g id="Group_214" data-name="Group 214" transform="translate(-388 5946)">
+            <rect id="Rectangle_71-6" data-name="Rectangle 71" class="cls-1" width="32" height="80" rx="8" transform="translate(524 1751)"/>
+            <text id="登_入_頁" data-name="登 入頁" class="cls-2" transform="translate(532 1778)"><tspan x="0" y="0">登</tspan><tspan x="0" y="20">入</tspan><tspan x="0" y="40">頁</tspan></text>
+        </g>
+        <g id="Group_197" data-name="Group 197" transform="translate(-542 5332)">
+            <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-3" width="130" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="下載資料備份檔" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">下載資料備份檔</tspan></text>
+        </g>
+        <g id="Group_196" data-name="Group 196" transform="translate(-542 5380)">
+            <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-3" width="130" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="上傳資料備份檔" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">上傳資料備份檔</tspan></text>
+        </g>
+        <g id="Group_200" data-name="Group 200" transform="translate(-542 5528)">
+            <rect id="Rectangle_70-3" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="查看進行中會議資訊" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">查看進行中會議資訊</tspan></text>
+        </g>
+        <g id="Group_199" data-name="Group 199" transform="translate(-542 5528)">
+            <rect id="Rectangle_70-4" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="強制關閉會議" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">強制關閉會議</tspan></text>
+        </g>
+        <g id="Group_195" data-name="Group 195" transform="translate(-542 5190)">
+            <rect id="Rectangle_70-5" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="返回至登入頁" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">返回至登入頁</tspan></text>
+        </g>
+        <g id="Group_189" data-name="Group 189" transform="translate(-542 5072)">
+            <rect id="Rectangle_70-6" data-name="Rectangle 70" class="cls-3" width="144" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="輸入帳號密碼登入" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">輸入帳號密碼登入</tspan></text>
+        </g>
+        <g id="Group_208" data-name="Group 208" transform="translate(-542 5676)">
+            <rect id="Rectangle_70-7" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="新增裝置帳戶" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">新增裝置帳戶</tspan></text>
+        </g>
+        <g id="Group_206" data-name="Group 206" transform="translate(-542 5676)">
+            <rect id="Rectangle_70-8" data-name="Rectangle 70" class="cls-3" width="144" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="編輯裝置帳戶名稱" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">編輯裝置帳戶名稱</tspan></text>
+        </g>
+        <g id="Group_207" data-name="Group 207" transform="translate(-542 5676)">
+            <rect id="Rectangle_70-9" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2697)"/>
+            <text id="刪除裝置帳戶" class="cls-4" transform="translate(742 2719)"><tspan x="0" y="0">刪除裝置帳戶</tspan></text>
+        </g>
+        <g id="Group_203" data-name="Group 203" transform="translate(-542 5820)">
+            <rect id="Rectangle_70-10" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶加入群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶加入群組</tspan></text>
+        </g>
+        <g id="Group_204" data-name="Group 204" transform="translate(-542 5868)">
+            <rect id="Rectangle_70-11" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶移出群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶移出群組</tspan></text>
+        </g>
+        <g id="Group_201" data-name="Group 201" transform="translate(-542 5916)">
+            <rect id="Rectangle_70-12" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="解除裝置綁定" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">解除裝置綁定</tspan></text>
+        </g>
+        <g id="Group_202" data-name="Group 202" transform="translate(-542 5916)">
+            <rect id="Rectangle_70-13" data-name="Rectangle 70" class="cls-3" width="87" height="32" rx="12" transform="translate(726 2697)"/>
+            <text id="重計CNT" class="cls-4" transform="translate(742 2719)"><tspan x="0" y="0">重計</tspan><tspan y="0">CNT</tspan></text>
+        </g>
+        <g id="Group_198" data-name="Group 198" transform="translate(-542 5332)">
+            <rect id="Rectangle_70-14" data-name="Rectangle 70" class="cls-3" width="60" height="32" rx="12" transform="translate(726 2697)"/>
+            <text id="登出" class="cls-4" transform="translate(742 2719)"><tspan x="0" y="0">登出</tspan></text>
+        </g>
+        <g id="Group_210" data-name="Group 210" transform="translate(-542 6168)">
+            <rect id="Rectangle_70-15" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶加入群組-2" data-name="將裝置帳戶加入群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶加入群組</tspan></text>
+        </g>
+        <g id="Group_212" data-name="Group 212" transform="translate(-542 6072)">
+            <rect id="Rectangle_70-16" data-name="Rectangle 70" class="cls-3" width="88" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="新增群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">新增群組</tspan></text>
+        </g>
+        <g id="Group_209" data-name="Group 209" transform="translate(-542 6216)">
+            <rect id="Rectangle_70-17" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶移出群組-2" data-name="將裝置帳戶移出群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶移出群組</tspan></text>
+        </g>
+        <g id="Group_211" data-name="Group 211" transform="translate(-542 6120)">
+            <rect id="Rectangle_70-18" data-name="Rectangle 70" class="cls-3" width="88" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="刪除群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">刪除群組</tspan></text>
+        </g>
+        <text id="用輸入格輸入帳號與密碼_按鈕_系統執行_畫面跳轉" data-name="用輸入格輸入帳號與密碼 → 按鈕 → 系統執行 → 畫面跳轉" class="cls-5" transform="translate(344 7721)"><tspan x="0" y="19">用輸入格輸入帳號與密碼 → 按鈕 → 系統執行 → 畫面跳轉</tspan></text>
+        <text id="按鈕_系統執行_畫面跳轉" data-name="按鈕 → 系統執行 → 畫面跳轉" class="cls-5" transform="translate(316 7843)"><tspan x="0" y="19">按鈕 → 系統執行 → 畫面跳轉</tspan></text>
+        <text id="按鈕_系統執行" data-name="按鈕 → 系統執行" class="cls-5" transform="translate(330 7937)"><tspan x="0" y="19">按鈕 → 系統執行</tspan></text>
+        <text id="按鈕_系統執行-2" data-name="按鈕 → 系統執行" class="cls-5" transform="translate(330 7985)"><tspan x="0" y="19">按鈕 → 系統執行</tspan></text>
+        <text id="按鈕_系統執行-3" data-name="按鈕 → 系統執行" class="cls-5" transform="translate(316 8181)"><tspan x="0" y="19">按鈕 → 系統執行</tspan></text>
+        <text id="按鈕_跳出Dialog輸入裝置帳戶名稱_按鈕確定_系統執行_Snackbar顯示任務完成" data-name="按鈕 → 跳出Dialog輸入裝置帳戶名稱 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(316 8281)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">輸入裝置帳戶名稱 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog編輯裝置帳戶名稱_按鈕確定_系統執行_Snackbar顯示任務完成" data-name="按鈕 → 跳出Dialog編輯裝置帳戶名稱 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(344 8329)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">編輯裝置帳戶名稱 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog選擇要加入的群組_按鈕確定_系統執行_Snackbar顯示任務完成" data-name="按鈕 → 跳出Dialog選擇要加入的群組 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(358 8425)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">選擇要加入的群組 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog選擇要加入群組的裝置帳戶_按鈕確定_系統執行_Snackbar顯示任務完成" data-name="按鈕 → 跳出Dialog選擇要加入群組的裝置帳戶 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(358 8773)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">選擇要加入群組的裝置帳戶 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog確定執行此任務_按鈕確定_系統執行_Snackbar顯示任務完成" data-name="按鈕 → 跳出Dialog確定執行此任務 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(358 8473)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">確定執行此任務 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog選擇要加入群組的裝置帳戶_按鈕確定_系統執行_Snackbar顯示任務完成-2" data-name="按鈕 → 跳出Dialog選擇要加入群組的裝置帳戶 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(358 8821)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">選擇要加入群組的裝置帳戶 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog確定執行此任務_按鈕確定_系統執行_Snackbar顯示任務完成-2" data-name="按鈕 → 跳出Dialog確定執行此任務 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(316 8377)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">確定執行此任務 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog輸入群組名稱_按鈕確定_系統執行_Snackbar顯示任務完成" data-name="按鈕 → 跳出Dialog輸入群組名稱 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(288 8677)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">輸入群組名稱 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog確定執行此任務_按鈕確定_系統執行_Snackbar顯示任務完成-3" data-name="按鈕 → 跳出Dialog確定執行此任務 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(288 8725)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">確定執行此任務 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog確定執行此任務_按鈕確定_系統執行_Snackbar顯示任務完成-4" data-name="按鈕 → 跳出Dialog確定執行此任務 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(342 8521)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">確定執行此任務 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog確定執行此任務_按鈕確定_系統執行_Snackbar顯示任務完成-5" data-name="按鈕 → 跳出Dialog確定執行此任務 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(316 8569)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">確定執行此任務 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_跳出Dialog確定執行此任務_按鈕確定_系統執行_Snackbar顯示任務完成-6" data-name="按鈕 → 跳出Dialog確定執行此任務 → 按鈕確定 → 系統執行 → Snackbar顯示任務完成" class="cls-5" transform="translate(287 8617)"><tspan x="0" y="19">按鈕 → 跳出</tspan><tspan y="19">Dialog</tspan><tspan y="19">確定執行此任務 → 按鈕確定 → 系統執行 → </tspan><tspan y="19">Snackbar</tspan><tspan y="19">顯示任務完成</tspan></text>
+        <text id="按鈕_系統執行_畫面跳轉-2" data-name="按鈕 → 系統執行 → 畫面跳轉" class="cls-5" transform="translate(260 8033)"><tspan x="0" y="19">按鈕 → 系統執行 → 畫面跳轉</tspan></text>
+        <text id="畫面顯示" class="cls-5" transform="translate(358 8133)"><tspan x="0" y="19">畫面顯示</tspan></text>
+        <g id="Group_269" data-name="Group 269" transform="translate(-542 5916)">
+            <rect id="Rectangle_70-19" data-name="Rectangle 70" class="cls-3" width="142" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="停_啟用裝置帳戶" data-name="停 / 啟用裝置帳戶" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">停 / 啟用裝置帳戶</tspan></text>
+        </g>
+    </g>
+</svg>

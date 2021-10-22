@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="300" viewBox="0 0 495 300">
+    <defs>
+        <style>
+            .cls-1,.cls-3,.cls-8{fill:none}.cls-1{stroke:#d0d0d0;stroke-width:1.5px}.cls-2{fill:#e0e0c3}.cls-3{stroke:#1a1a1a}.cls-4,.cls-5,.cls-6{fill:#1a1a1a}.cls-5{font-size:12px;font-family:NotoSansTC-Regular,Noto Sans TC}.cls-6{font-size:14px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-7{stroke:none}
+        </style>
+    </defs>
+    <g id="project_svc-img-7" transform="translate(-436 -3001)">
+        <g id="Ellipse_21" data-name="Ellipse 21" class="cls-1" transform="translate(436 3025)">
+            <ellipse class="cls-7" cx="146.5" cy="110" rx="146.5" ry="110"/>
+            <ellipse class="cls-8" cx="146.5" cy="110" rx="145.75" ry="109.25"/>
+        </g>
+        <g id="Ellipse_22" data-name="Ellipse 22" class="cls-1" transform="translate(637 3025)">
+            <ellipse class="cls-7" cx="147" cy="110" rx="147" ry="110"/>
+            <ellipse class="cls-8" cx="147" cy="110" rx="146.25" ry="109.25"/>
+        </g>
+        <circle id="Ellipse_23" data-name="Ellipse 23" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(674.614 3096.738)"/>
+        <circle id="Ellipse_31" data-name="Ellipse 31" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(761.679 3046.705)"/>
+        <circle id="Ellipse_32" data-name="Ellipse 32" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(842.07 3063.633)"/>
+        <circle id="Ellipse_33" data-name="Ellipse 33" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(793.434 3118.223)"/>
+        <circle id="Ellipse_35" data-name="Ellipse 35" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(751.252 3195)"/>
+        <circle id="Ellipse_36" data-name="Ellipse 36" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(873.07 3155.723)"/>
+        <circle id="Ellipse_25" data-name="Ellipse 25" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(534.909 3045.375)"/>
+        <circle id="Ellipse_27" data-name="Ellipse 27" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(545.5 3114.387)"/>
+        <ellipse id="Ellipse_28" data-name="Ellipse 28" class="cls-2" cx="13" cy="12.5" rx="13" ry="12.5" transform="translate(460 3114)"/>
+        <circle id="Ellipse_29" data-name="Ellipse 29" class="cls-2" cx="12.5" cy="12.5" r="12.5" transform="translate(505 3178)"/>
+        <ellipse id="Ellipse_30" data-name="Ellipse 30" class="cls-2" cx="12.5" cy="13" rx="12.5" ry="13" transform="translate(586 3190)"/>
+        <circle id="Ellipse_24" data-name="Ellipse 24" class="cls-2" cx="12.591" cy="12.591" r="12.591" transform="translate(670.409 3158.904)"/>
+        <g id="Group_108" data-name="Group 108" transform="rotate(-13 11348.11 1507.32)">
+            <path id="Path_1" data-name="Path 1" class="cls-3" d="M-10509.438-11491.654s49.9-19.845 94.438 6.487" transform="translate(10994.944 12144.479)"/>
+            <path id="Polygon_1" data-name="Polygon 1" class="cls-4" d="m3.272 0 3.272 5.454H0z" transform="scale(-1) rotate(-57 -899.68 209.595)"/>
+        </g>
+        <g id="Group_114" data-name="Group 114" transform="rotate(5.13 -36472.941 9440.032)">
+            <path id="Path_1-2" data-name="Path 1" class="cls-3" d="M0 11.765C5.792 77.972 172.263 68.478 166.535 3" transform="translate(-76.83 5.543)"/>
+            <path id="Polygon_1-2" data-name="Polygon 1" class="cls-4" d="m3.272 0 3.272 5.454H0z" transform="rotate(-6.02 85.122 -814.473)"/>
+        </g>
+        <g id="Group_110" data-name="Group 110" transform="rotate(-167 576.814 1518.065)">
+            <path id="Path_1-3" data-name="Path 1" class="cls-3" d="M3.781 2.764S39.542 23.253 94.438 0" transform="translate(0 5.543)"/>
+            <path id="Polygon_1-3" data-name="Polygon 1" class="cls-4" d="m3.272 0 3.272 5.454H0z" transform="rotate(57 48.257 88.892)"/>
+        </g>
+        <g id="Group_112" data-name="Group 112" transform="rotate(146 -80.433 1695.281)">
+            <path id="Path_1-4" data-name="Path 1" class="cls-3" d="M3.781 2.764s30.541-1.488 48.53-24.456" transform="translate(0 5.543)"/>
+            <path id="Polygon_1-4" data-name="Polygon 1" class="cls-4" d="m3.272 0 3.272 5.454H0z" transform="rotate(36 59.74 69.003)"/>
+        </g>
+        <g id="Group_113" data-name="Group 113" transform="rotate(-159 561.392 1509.763)">
+            <path id="Path_1-5" data-name="Path 1" class="cls-3" d="M.216-4.283s31.773 6.045 52.1-17.409" transform="translate(0 5.543)"/>
+            <path id="Polygon_1-5" data-name="Polygon 1" class="cls-4" d="m3.272 0 3.272 5.454H0z" transform="rotate(36 59.74 69.003)"/>
+        </g>
+        <g id="Group_109" data-name="Group 109" transform="rotate(73 -1102.72 1931.134)">
+            <path id="Path_1-6" data-name="Path 1" class="cls-3" d="M-10456.656-11461.459s17.678-16.654 51.83-9.951" transform="translate(10994.944 12144.479)"/>
+            <path id="Polygon_1-6" data-name="Polygon 1" class="cls-4" d="m3.272 0 3.272 5.454H0z" transform="rotate(99 11.277 589.611)"/>
+        </g>
+        <g id="Group_111" data-name="Group 111" transform="rotate(37 -2977.68 2334.229)">
+            <path id="Path_1-7" data-name="Path 1" class="cls-3" d="M-10456.656-11461.459s17.678-16.654 51.83-9.951" transform="translate(10994.944 12144.479)"/>
+            <path id="Polygon_1-7" data-name="Polygon 1" class="cls-4" d="m3.272 0 3.272 5.454H0z" transform="rotate(99 11.277 589.611)"/>
+        </g>
+        <text id="可邀請" class="cls-5" transform="rotate(-11 16392.875 -1533.894)"><tspan x="0" y="0">可邀請</tspan></text>
+        <text id="可邀請-2" data-name="可邀請" class="cls-5" transform="rotate(14.98 -11367.033 4387.275)"><tspan x="0" y="0">可邀請</tspan></text>
+        <text id="可邀請-3" data-name="可邀請" class="cls-5" transform="translate(590.655 3156.904)"><tspan x="0" y="0">可邀請</tspan></text>
+        <text id="可邀請-4" data-name="可邀請" class="cls-5" transform="translate(505 3103.18)"><tspan x="0" y="0">可邀請</tspan></text>
+        <text id="可邀請-5" data-name="可邀請" class="cls-5" transform="translate(849.252 3131.979)"><tspan x="0" y="0">可邀請</tspan></text>
+        <text id="可邀請-6" data-name="可邀請" class="cls-5" transform="translate(779.053 3174)"><tspan x="0" y="0">可邀請</tspan></text>
+        <text id="群組A" class="cls-6" transform="translate(583 3017)"><tspan x="-18.354" y="0">群組</tspan><tspan y="0">A</tspan></text>
+        <text id="不可邀請" class="cls-6" transform="translate(683 3297)"><tspan x="-28" y="0">不可邀請</tspan></text>
+        <text id="群組B" class="cls-6" transform="translate(784 3017)"><tspan x="-18.669" y="0">群組</tspan><tspan y="0">B</tspan></text>
+    </g>
+</svg>

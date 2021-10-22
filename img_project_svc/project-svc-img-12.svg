@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="429" viewBox="0 0 1024 429">
+    <defs>
+        <style>
+            .cls-1{fill:#717744}.cls-2{fill:#fff;font-size:16px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-3{fill:#e0e0c3;opacity:.6}.cls-4{fill:#1a1a1a;font-size:14px;font-family:NotoSansTC-Regular,Noto Sans TC}
+        </style>
+    </defs>
+    <g id="project_svc-img-12" transform="translate(-171 -6920)">
+        <g id="Group_162" data-name="Group 162" transform="translate(-182 5203)">
+            <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-1" width="80" height="38" rx="16" transform="translate(353 1717)"/>
+            <text id="登入頁" class="cls-2" transform="translate(369 1743)"><tspan x="0" y="0">登入頁</tspan></text>
+        </g>
+        <g id="Group_163" data-name="Group 163" transform="translate(-6 5131)">
+            <rect id="Rectangle_72" data-name="Rectangle 72" class="cls-1" width="96" height="38" rx="16" transform="translate(353 1789)"/>
+            <text id="已登出頁" class="cls-2" transform="translate(369 1815)"><tspan x="0" y="0">已登出頁</tspan></text>
+        </g>
+        <g id="Group_164" data-name="Group 164" transform="translate(-21 5169)">
+            <rect id="Rectangle_71" data-name="Rectangle 71" class="cls-1" width="64" height="38" rx="16" transform="translate(516 1751)"/>
+            <text id="首頁" class="cls-2" transform="translate(532 1777)"><tspan x="0" y="0">首頁</tspan></text>
+        </g>
+        <g id="Group_165" data-name="Group 165" transform="translate(304 5203)">
+            <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-1" width="144" height="38" rx="16" transform="translate(353 1717)"/>
+            <text id="視訊會議管理頁" class="cls-2" transform="translate(369 1743)"><tspan x="0" y="0">視訊會議管理頁</tspan></text>
+        </g>
+        <g id="Group_166" data-name="Group 166" transform="translate(494 5203)">
+            <rect id="Rectangle_70-3" data-name="Rectangle 70" class="cls-1" width="144" height="38" rx="16" transform="translate(353 1717)"/>
+            <text id="裝置帳戶管理頁" class="cls-2" transform="translate(369 1743)"><tspan x="0" y="0">裝置帳戶管理頁</tspan></text>
+        </g>
+        <g id="Group_167" data-name="Group 167" transform="translate(684 5203)">
+            <rect id="Rectangle_70-4" data-name="Rectangle 70" class="cls-1" width="112" height="38" rx="16" transform="translate(353 1717)"/>
+            <text id="群組管理頁" class="cls-2" transform="translate(369 1743)"><tspan x="0" y="0">群組管理頁</tspan></text>
+        </g>
+        <g id="Group_168" data-name="Group 168" transform="translate(-231 4380)">
+            <rect id="Rectangle_70-5" data-name="Rectangle 70" class="cls-3" width="130" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="下載資料備份檔" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">下載資料備份檔</tspan></text>
+        </g>
+        <g id="Group_169" data-name="Group 169" transform="translate(-231 4428)">
+            <rect id="Rectangle_70-6" data-name="Rectangle 70" class="cls-3" width="130" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="上傳資料備份檔" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">上傳資料備份檔</tspan></text>
+        </g>
+        <g id="Group_170" data-name="Group 170" transform="translate(-69 4380)">
+            <rect id="Rectangle_70-7" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="查看進行中會議資訊" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">查看進行中會議資訊</tspan></text>
+        </g>
+        <g id="Group_171" data-name="Group 171" transform="translate(-69 4380)">
+            <rect id="Rectangle_70-8" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="強制關閉會議" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">強制關閉會議</tspan></text>
+        </g>
+        <g id="Group_186" data-name="Group 186" transform="translate(-379 4332)">
+            <rect id="Rectangle_70-9" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="返回至登入頁" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">返回至登入頁</tspan></text>
+        </g>
+        <g id="Group_185" data-name="Group 185" transform="translate(-555 4332)">
+            <rect id="Rectangle_70-10" data-name="Rectangle 70" class="cls-3" width="144" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="輸入帳號密碼登入" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">輸入帳號密碼登入</tspan></text>
+        </g>
+        <g id="Group_172" data-name="Group 172" transform="translate(121 4380)">
+            <rect id="Rectangle_70-11" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="新增裝置帳戶" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">新增裝置帳戶</tspan></text>
+        </g>
+        <g id="Group_173" data-name="Group 173" transform="translate(121 4380)">
+            <rect id="Rectangle_70-12" data-name="Rectangle 70" class="cls-3" width="144" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="編輯裝置帳戶名稱" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">編輯裝置帳戶名稱</tspan></text>
+        </g>
+        <g id="Group_174" data-name="Group 174" transform="translate(121 4380)">
+            <rect id="Rectangle_70-13" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2697)"/>
+            <text id="刪除裝置帳戶" class="cls-4" transform="translate(742 2719)"><tspan x="0" y="0">刪除裝置帳戶</tspan></text>
+        </g>
+        <g id="Group_175" data-name="Group 175" transform="translate(121 4524)">
+            <rect id="Rectangle_70-14" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶加入群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶加入群組</tspan></text>
+        </g>
+        <g id="Group_176" data-name="Group 176" transform="translate(121 4572)">
+            <rect id="Rectangle_70-15" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶移出群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶移出群組</tspan></text>
+        </g>
+        <g id="Group_178" data-name="Group 178" transform="translate(121 4620)">
+            <rect id="Rectangle_70-16" data-name="Rectangle 70" class="cls-3" width="116" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="解除裝置綁定" class="cls-4" transform="translate(742 2671)"><tspan x="0" y="0">解除裝置綁定</tspan></text>
+        </g>
+        <g id="Group_179" data-name="Group 179" transform="translate(121 4620)">
+            <rect id="Rectangle_70-17" data-name="Rectangle 70" class="cls-3" width="87" height="32" rx="12" transform="translate(726 2697)"/>
+            <text id="重計CNT" class="cls-4" transform="translate(742 2719)"><tspan x="0" y="0">重計</tspan><tspan y="0">CNT</tspan></text>
+        </g>
+        <g id="Group_184" data-name="Group 184" transform="translate(-231 4380)">
+            <rect id="Rectangle_70-18" data-name="Rectangle 70" class="cls-3" width="60" height="32" rx="12" transform="translate(726 2697)"/>
+            <text id="登出" class="cls-4" transform="translate(742 2719)"><tspan x="0" y="0">登出</tspan></text>
+        </g>
+        <g id="Group_180" data-name="Group 180" transform="translate(311 4476)">
+            <rect id="Rectangle_70-19" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶加入群組-2" data-name="將裝置帳戶加入群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶加入群組</tspan></text>
+        </g>
+        <g id="Group_181" data-name="Group 181" transform="translate(311 4380)">
+            <rect id="Rectangle_70-20" data-name="Rectangle 70" class="cls-3" width="88" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="新增群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">新增群組</tspan></text>
+        </g>
+        <g id="Group_182" data-name="Group 182" transform="translate(311 4524)">
+            <rect id="Rectangle_70-21" data-name="Rectangle 70" class="cls-3" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶移出群組-2" data-name="將裝置帳戶移出群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶移出群組</tspan></text>
+        </g>
+        <g id="Group_183" data-name="Group 183" transform="translate(311 4428)">
+            <rect id="Rectangle_70-22" data-name="Rectangle 70" class="cls-3" width="88" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="刪除群組" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">刪除群組</tspan></text>
+        </g>
+        <g id="Group_268" data-name="Group 268" transform="translate(121 4620)">
+            <rect id="Rectangle_70-23" data-name="Rectangle 70" class="cls-3" width="142" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="停_啟用裝置帳戶" data-name="停 / 啟用裝置帳戶" class="cls-4" transform="translate(742 2623)"><tspan x="0" y="0">停 / 啟用裝置帳戶</tspan></text>
+        </g>
+    </g>
+</svg>

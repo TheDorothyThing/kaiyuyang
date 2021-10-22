@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345" height="128" viewBox="0 0 345 128">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_83" data-name="Rectangle 83" transform="translate(700 2617)" style="fill:#fafafa" d="M0 0h26v96H0z"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:none;stroke:#d0d0d0}.cls-6{fill:#e0e0c3;opacity:.6}.cls-7{fill:#1a1a1a;font-size:14px;font-family:NotoSansTC-Regular,Noto Sans TC}
+        </style>
+    </defs>
+    <g id="project_svc-img-6" transform="translate(-492 -2604)">
+        <g id="Group_102" data-name="Group 102" transform="translate(-33 3)">
+            <g id="Mask_Group_1" data-name="Mask Group 1" style="clip-path:url(#clip-path)">
+                <g id="Rectangle_85" data-name="Rectangle 85" class="cls-3" transform="translate(700 2617)">
+                    <rect width="79" height="96" rx="12" style="stroke:none"/>
+                    <rect x=".5" y=".5" width="78" height="95" rx="11.5" style="fill:none"/>
+                </g>
+            </g>
+        </g>
+        <g id="Group_98" data-name="Group 98" transform="translate(139 932)">
+            <rect id="Rectangle_70" data-name="Rectangle 70" width="144" height="38" rx="16" transform="translate(353 1717)" style="fill:#717744"/>
+            <text id="裝置帳戶管理頁" transform="translate(369 1743)" style="fill:#fff;font-size:16px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500"><tspan x="0" y="0">裝置帳戶管理頁</tspan></text>
+        </g>
+        <g id="Group_99" data-name="Group 99" transform="translate(-33 3)">
+            <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-6" width="116" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="新增裝置帳戶" class="cls-7" transform="translate(742 2623)"><tspan x="0" y="0">新增裝置帳戶</tspan></text>
+        </g>
+        <g id="Group_100" data-name="Group 100" transform="translate(-33 3)">
+            <rect id="Rectangle_70-3" data-name="Rectangle 70" class="cls-6" width="144" height="32" rx="12" transform="translate(726 2649)"/>
+            <text id="編輯裝置帳戶名稱" class="cls-7" transform="translate(742 2671)"><tspan x="0" y="0">編輯裝置帳戶名稱</tspan></text>
+        </g>
+        <g id="Group_101" data-name="Group 101" transform="translate(-33 3)">
+            <rect id="Rectangle_70-4" data-name="Rectangle 70" class="cls-6" width="116" height="32" rx="12" transform="translate(726 2697)"/>
+            <text id="刪除裝置帳戶" class="cls-7" transform="translate(742 2719)"><tspan x="0" y="0">刪除裝置帳戶</tspan></text>
+        </g>
+        <path id="Line_4" data-name="Line 4" class="cls-3" transform="translate(636 2668.5)" d="M0 0h57"/>
+    </g>
+</svg>

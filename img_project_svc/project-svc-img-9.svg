@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="359" height="228" viewBox="0 0 359 228">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_83" data-name="Rectangle 83" class="cls-1" transform="translate(700 2617)" d="M0 0h26v96H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Rectangle_83-2" data-name="Rectangle 83" class="cls-1" d="M0 0h26v49H0z"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#fafafa}.cls-10,.cls-3{fill:none}.cls-3{stroke:#d0d0d0}.cls-4{fill:#717744}.cls-5{fill:#fff;font-size:16px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-6{fill:#e0e0c3;opacity:.6}.cls-7{fill:#1a1a1a;font-size:14px;font-family:NotoSansTC-Regular,Noto Sans TC}.cls-9{stroke:none}
+        </style>
+    </defs>
+    <g id="project_svc-img-9" transform="translate(-519 -4547)">
+        <g id="Group_129" data-name="Group 129" transform="translate(27 1943)">
+            <g id="Group_102" data-name="Group 102" transform="translate(-33 3)">
+                <g id="Mask_Group_1" data-name="Mask Group 1" style="clip-path:url(#clip-path)">
+                    <g id="Rectangle_85" data-name="Rectangle 85" class="cls-3" transform="translate(700 2617)">
+                        <rect class="cls-9" width="79" height="96" rx="12"/>
+                        <rect class="cls-10" x=".5" y=".5" width="78" height="95" rx="11.5"/>
+                    </g>
+                </g>
+            </g>
+            <g id="Group_98" data-name="Group 98" transform="translate(139 932)">
+                <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-4" width="144" height="38" rx="16" transform="translate(353 1717)"/>
+                <text id="裝置帳戶管理頁" class="cls-5" transform="translate(369 1743)"><tspan x="0" y="0">裝置帳戶管理頁</tspan></text>
+            </g>
+            <g id="Group_99" data-name="Group 99" transform="translate(-33 3)">
+                <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-6" width="116" height="32" rx="12" transform="translate(726 2601)"/>
+                <text id="停用裝置帳戶" class="cls-7" transform="translate(742 2623)"><tspan x="0" y="0">停用裝置帳戶</tspan></text>
+            </g>
+            <g id="Group_100" data-name="Group 100" transform="translate(-33 3)">
+                <rect id="Rectangle_70-3" data-name="Rectangle 70" class="cls-6" width="116" height="32" rx="12" transform="translate(726 2649)"/>
+                <text id="解除裝置綁定" class="cls-7" transform="translate(742 2671)"><tspan x="0" y="0">解除裝置綁定</tspan></text>
+            </g>
+            <g id="Group_101" data-name="Group 101" transform="translate(-33 3)">
+                <rect id="Rectangle_70-4" data-name="Rectangle 70" class="cls-6" width="87" height="32" rx="12" transform="translate(726 2697)"/>
+                <text id="重計CNT" class="cls-7" transform="translate(742 2719)"><tspan x="0" y="0">重計</tspan><tspan y="0">CNT</tspan></text>
+            </g>
+            <path id="Line_4" data-name="Line 4" class="cls-3" transform="translate(636 2668.5)" d="M0 0h57"/>
+        </g>
+        <g id="Group_130" data-name="Group 130" transform="translate(27 2066)">
+            <g id="Group_102-2" data-name="Group 102" transform="translate(-33 28)">
+                <g id="Mask_Group_1-2" data-name="Mask Group 1" transform="translate(700 2617)" style="clip-path:url(#clip-path-2)">
+                    <g id="Rectangle_85-2" data-name="Rectangle 85" class="cls-3">
+                        <rect class="cls-9" width="79" height="49" rx="12"/>
+                        <rect class="cls-10" x=".5" y=".5" width="78" height="48" rx="11.5"/>
+                    </g>
+                </g>
+            </g>
+            <g id="Group_98-2" data-name="Group 98" transform="translate(139 932)">
+                <rect id="Rectangle_70-5" data-name="Rectangle 70" class="cls-4" width="144" height="38" rx="16" transform="translate(353 1717)"/>
+                <text id="視訊會議管理頁" class="cls-5" transform="translate(369 1743)"><tspan x="0" y="0">視訊會議管理頁</tspan></text>
+            </g>
+            <g id="Group_99-2" data-name="Group 99" transform="translate(-33 28)">
+                <rect id="Rectangle_70-6" data-name="Rectangle 70" class="cls-6" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+                <text id="查看進行中會議資訊" class="cls-7" transform="translate(742 2623)"><tspan x="0" y="0">查看進行中會議資訊</tspan></text>
+            </g>
+            <g id="Group_100-2" data-name="Group 100" transform="translate(-33 28)">
+                <rect id="Rectangle_70-7" data-name="Rectangle 70" class="cls-6" width="116" height="32" rx="12" transform="translate(726 2649)"/>
+                <text id="強制關閉會議" class="cls-7" transform="translate(742 2671)"><tspan x="0" y="0">強制關閉會議</tspan></text>
+            </g>
+            <path id="Line_4-2" data-name="Line 4" class="cls-3" transform="translate(636 2668.5)" d="M0 0h31.5"/>
+        </g>
+    </g>
+</svg>

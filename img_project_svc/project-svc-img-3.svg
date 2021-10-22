@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="944" height="389" viewBox="0 0 944 389">
+    <defs>
+        <style>
+            .cls-1,.cls-4,.cls-5{fill:#1a1a1a}.cls-1{font-size:16px}.cls-1,.cls-4{font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-2,.cls-3,.cls-7{fill:none}.cls-2,.cls-3{stroke:#1a1a1a}.cls-2{stroke-width:1.5px}.cls-4,.cls-5{font-size:14px}.cls-5{font-family:NotoSansTC-Regular,Noto Sans TC}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="project_svc-img-3" transform="translate(-211 -1001)">
+        <g id="Group_70" data-name="Group 70" transform="translate(9 -1)">
+            <text id="前台系統需求" class="cls-1" transform="translate(384 1033)"><tspan x="0" y="0">前台系統需求</tspan></text>
+            <g id="Rectangle_55" data-name="Rectangle 55" class="cls-2">
+                <path class="cls-6" d="M0 0h460v389H0z" transform="translate(202 1002)"/>
+                <path class="cls-7" d="M.75.75h458.5v387.5H.75z" transform="translate(202 1002)"/>
+            </g>
+            <g id="Rectangle_57" data-name="Rectangle 57" class="cls-3" transform="translate(222 1050)">
+                <path class="cls-6" d="M0 0h420v1H0z"/>
+                <rect class="cls-7" x=".5" y=".5" width="419"/>
+            </g>
+            <text id="使用者" class="cls-4" transform="translate(222 1079)"><tspan x="0" y="0">使用者</tspan></text>
+            <text id="系統使用資格限制" class="cls-4" transform="translate(222 1155)"><tspan x="0" y="0">系統使用資格限制</tspan></text>
+            <text id="前台系統必要功能" class="cls-4" transform="translate(222 1231)"><tspan x="0" y="0">前台系統必要功能</tspan></text>
+            <text id="_組織內的一般人員_" data-name="・組織內的一般人員。" class="cls-5" transform="translate(222 1095)"><tspan x="0" y="16">・組織內的一般人員。</tspan></text>
+            <text id="_驗證在後台建立的登入資格_通過後才可使用_" data-name="・驗證在後台建立的登入資格，通過後才可使用。" class="cls-5" transform="translate(222 1171)"><tspan x="0" y="16">・驗證在後台建立的登入資格，通過後才可使用。</tspan></text>
+            <text id="_會議發起人選擇會議參與人後發起會議_" data-name="・會議發起人選擇會議參與人後發起會議。" class="cls-5" transform="translate(222 1247)"><tspan x="0" y="16">・會議發起人選擇會議參與人後發起會議。</tspan></text>
+            <text id="_會議參與人收到會議邀請後方可加入會議_" data-name="・會議參與人收到會議邀請後方可加入會議。" class="cls-5" transform="translate(222 1279)"><tspan x="0" y="16">・會議參與人收到會議邀請後方可加入會議。</tspan></text>
+        </g>
+        <g id="Group_71" data-name="Group 71" transform="translate(-16 -1)">
+            <text id="後台系統需求" class="cls-1" transform="translate(893 1033)"><tspan x="0" y="0">後台系統需求</tspan></text>
+            <g id="Rectangle_56" data-name="Rectangle 56" class="cls-2">
+                <path class="cls-6" d="M0 0h460v389H0z" transform="translate(711 1002)"/>
+                <path class="cls-7" d="M.75.75h458.5v387.5H.75z" transform="translate(711 1002)"/>
+            </g>
+            <g id="Rectangle_62" data-name="Rectangle 62" class="cls-3" transform="translate(731 1050)">
+                <path class="cls-6" d="M0 0h420v1H0z"/>
+                <rect class="cls-7" x=".5" y=".5" width="419"/>
+            </g>
+            <text id="使用者-2" data-name="使用者" class="cls-4" transform="translate(738 1079)"><tspan x="0" y="0">使用者</tspan></text>
+            <text id="系統使用資格限制-2" data-name="系統使用資格限制" class="cls-4" transform="translate(738 1155)"><tspan x="0" y="0">系統使用資格限制</tspan></text>
+            <text id="後台系統必要功能" class="cls-4" transform="translate(738 1231)"><tspan x="0" y="0">後台系統必要功能</tspan></text>
+            <text id="_組織內的IT人員_" data-name="・組織內的IT人員。" class="cls-5" transform="translate(738 1095)"><tspan x="0" y="16">・組織內的</tspan><tspan y="16">IT</tspan><tspan y="16">人員。</tspan></text>
+            <text id="_只有IT人員可登入使用_" data-name="・只有IT人員可登入使用。" class="cls-5" transform="translate(738 1171)"><tspan x="0" y="16">・只有</tspan><tspan y="16">IT</tspan><tspan y="16">人員可登入使用。</tspan></text>
+            <text id="_創建前台系統的登入資格_" data-name="・創建前台系統的登入資格。" class="cls-5" transform="translate(738 1247)"><tspan x="0" y="16">・創建前台系統的登入資格。</tspan></text>
+            <text id="_控制前台使用者作為會議發起人時所能夠邀請的人員名單_" data-name="・控制前台使用者作為會議發起人時所能夠邀請的人員名單。" class="cls-5" transform="translate(738 1279)"><tspan x="0" y="16">・控制前台使用者作為會議發起人時所能夠邀請的人員名單。</tspan></text>
+            <text id="_解決前台使用者無法登入_裝置遺失_及無法進行會議的問題_" data-name="・解決前台使用者無法登入、裝置遺失、及無法進行會議的問題。" class="cls-5" transform="translate(738 1311)"><tspan x="0" y="16">・解決前台使用者無法登入、裝置遺失、及無法進行會議的問題。</tspan></text>
+            <text id="_使用JSON檔進行資料備份與還原_" data-name="・使用JSON檔進行資料備份與還原。" class="cls-5" transform="translate(738 1343)"><tspan x="0" y="16">・使用</tspan><tspan y="16">JSON</tspan><tspan y="16">檔進行資料備份與還原。</tspan></text>
+        </g>
+    </g>
+</svg>

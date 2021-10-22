@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="359" height="276" viewBox="0 0 359 276">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_83" data-name="Rectangle 83" class="cls-1" d="M0 0h26v48H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="Rectangle_83-2" data-name="Rectangle 83" class="cls-1" d="M0 0h26v144H0z"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#fafafa}.cls-10,.cls-3{fill:none}.cls-3{stroke:#d0d0d0}.cls-5{fill:#717744}.cls-6{fill:#fff;font-size:16px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-7{fill:#e0e0c3;opacity:.6}.cls-8{fill:#1a1a1a;font-size:14px;font-family:NotoSansTC-Regular,Noto Sans TC}.cls-9{stroke:none}
+        </style>
+    </defs>
+    <g id="project_svc-img-8" transform="translate(-519 -3523)">
+        <g id="Group_102" data-name="Group 102" transform="translate(-6 922)">
+            <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(700 2617)" style="clip-path:url(#clip-path)">
+                <g id="Rectangle_85" data-name="Rectangle 85" class="cls-3">
+                    <rect class="cls-9" width="79" height="48" rx="12"/>
+                    <rect class="cls-10" x=".5" y=".5" width="78" height="47" rx="11.5"/>
+                </g>
+            </g>
+        </g>
+        <g id="Group_124" data-name="Group 124" transform="translate(-6 1022)">
+            <g id="Mask_Group_1-2" data-name="Mask Group 1" transform="translate(700 2617)" style="clip-path:url(#clip-path-2)">
+                <g id="Rectangle_85-2" data-name="Rectangle 85" class="cls-3">
+                    <rect class="cls-9" width="79" height="144" rx="12"/>
+                    <rect class="cls-10" x=".5" y=".5" width="78" height="143" rx="11.5"/>
+                </g>
+            </g>
+        </g>
+        <g id="Group_98" data-name="Group 98" transform="translate(166 1826)">
+            <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-5" width="144" height="38" rx="16" transform="translate(353 1717)"/>
+            <text id="裝置帳戶管理頁" class="cls-6" transform="translate(369 1743)"><tspan x="0" y="0">裝置帳戶管理頁</tspan></text>
+        </g>
+        <g id="Group_119" data-name="Group 119" transform="translate(182 1975)">
+            <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-5" width="112" height="38" rx="16" transform="translate(353 1717)"/>
+            <text id="群組管理頁" class="cls-6" transform="translate(369 1743)"><tspan x="0" y="0">群組管理頁</tspan></text>
+        </g>
+        <g id="Group_99" data-name="Group 99" transform="translate(-6 922)">
+            <rect id="Rectangle_70-3" data-name="Rectangle 70" class="cls-7" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶加入群組" class="cls-8" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶加入群組</tspan></text>
+        </g>
+        <g id="Group_120" data-name="Group 120" transform="translate(-6 1118)">
+            <rect id="Rectangle_70-4" data-name="Rectangle 70" class="cls-7" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶加入群組-2" data-name="將裝置帳戶加入群組" class="cls-8" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶加入群組</tspan></text>
+        </g>
+        <g id="Group_123" data-name="Group 123" transform="translate(-6 1022)">
+            <rect id="Rectangle_70-5" data-name="Rectangle 70" class="cls-7" width="88" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="新增群組" class="cls-8" transform="translate(742 2623)"><tspan x="0" y="0">新增群組</tspan></text>
+        </g>
+        <g id="Group_118" data-name="Group 118" transform="translate(-6 970)">
+            <rect id="Rectangle_70-6" data-name="Rectangle 70" class="cls-7" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶移出群組" class="cls-8" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶移出群組</tspan></text>
+        </g>
+        <g id="Group_121" data-name="Group 121" transform="translate(-6 1166)">
+            <rect id="Rectangle_70-7" data-name="Rectangle 70" class="cls-7" width="158" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="將裝置帳戶移出群組-2" data-name="將裝置帳戶移出群組" class="cls-8" transform="translate(742 2623)"><tspan x="0" y="0">將裝置帳戶移出群組</tspan></text>
+        </g>
+        <g id="Group_122" data-name="Group 122" transform="translate(-6 1070)">
+            <rect id="Rectangle_70-8" data-name="Rectangle 70" class="cls-7" width="88" height="32" rx="12" transform="translate(726 2601)"/>
+            <text id="刪除群組" class="cls-8" transform="translate(742 2623)"><tspan x="0" y="0">刪除群組</tspan></text>
+        </g>
+        <path id="Line_4" data-name="Line 4" class="cls-3" transform="translate(663 3562.5)" d="M0 0h31.5"/>
+        <path id="Line_7" data-name="Line 7" class="cls-3" transform="translate(647 3711)" d="M0 0h47"/>
+        <path id="Line_5" data-name="Line 5" class="cls-3" transform="translate(694 3689)" d="M0 0h26"/>
+        <path id="Line_6" data-name="Line 6" class="cls-3" transform="translate(694 3736)" d="M0 0h26"/>
+    </g>
+</svg>
