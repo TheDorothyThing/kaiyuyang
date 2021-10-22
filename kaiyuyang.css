@@ -431,7 +431,7 @@ body::-webkit-scrollbar {
   color: #242424;
 }
 
-#footer {
+.footer {
   height: 100px;
   font-family: "Montserrat";
   font-size: 12px;
@@ -584,18 +584,20 @@ body::-webkit-scrollbar {
 .projectpage_svc_img_scroll {
   width: 100%;
   background-color: #f8f8f8;
-  margin: 0px 100px 24px 100px;
-  padding: 24px;
+  margin-bottom: 24px;
+  padding: 24px 52px 24px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow-x: scroll;
   -ms-overflow-style: none;
   /* IE and Edge */
@@ -605,5 +607,30 @@ body::-webkit-scrollbar {
 
 .projectpage_svc_img_scroll::-webkit-scrollbar {
   display: none;
+}
+
+.img_svc_textwireframe {
+  width: 240px;
+  margin-right: 24px;
+}
+
+.img_svc_lofiwireframe {
+  width: 440px;
+  margin-right: 24px;
+}
+
+.img_svc_hifiwireframe {
+  width: 800px;
+  margin-right: 24px;
+}
+
+.img_svc_zeplin {
+  width: 920px;
+  margin-right: 24px;
+  border-radius: 8px;
+}
+
+.img_project_svc_screen {
+  width: 800px;
 }
 /*# sourceMappingURL=kaiyuyang.css.map */
