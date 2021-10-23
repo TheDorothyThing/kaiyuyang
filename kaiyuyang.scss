@@ -134,7 +134,7 @@ body::-webkit-scrollbar {
 }
 
 #selfintroduction{
-    padding: 60px 36px;
+    padding: 60px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +149,7 @@ body::-webkit-scrollbar {
 
 #selfintroduction h2:nth-child(1){
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 500;
     @include letterspacing;
     line-height: 1.25;
 }
@@ -181,7 +181,7 @@ body::-webkit-scrollbar {
 }
 
 .TC{
-    font-family: "Noto Sans Traditional Chinese";
+    font-family: "Noto Sans TC";
 }
 
 .Eng{
@@ -202,6 +202,15 @@ body::-webkit-scrollbar {
     z-index: 2;
 }
 
+.project_info_odd{
+    width: 308px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 2;
+}
+
 .project_img{
     max-width: calc(100% -308px);
     overflow: scroll;
@@ -212,6 +221,10 @@ body::-webkit-scrollbar {
 .project_img::-webkit-scrollbar { /* WebKit */
     width: 0;
     height: 0;
+}
+
+.project_img_rwd{
+    display: none;
 }
 
 .project_img img{
@@ -233,12 +246,15 @@ $title-background: #f7f7f7;
     width: 360px;
     height: 52px;
     margin-top: 24px;
-    font-family: "Noto Sans Traditional Chinese";
+    font-family: "Noto Sans TC";
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     @include letterspacing;
     text-align: center;
-    line-height: 2.25;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $title-background;
     box-sizing: border-box;
     @include project_title_shadow;
@@ -246,14 +262,17 @@ $title-background: #f7f7f7;
 
 .project_title_Eng{
     width: 360px;
-    height: 52px;
     margin-top: 20px;
+    padding: 12px 0px;
     font-family: "Montserrat";
     font-size: 18px;
     font-weight: 600;
     @include letterspacing;
     text-align: center;
-    line-height: 3;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $title-background;
     box-sizing: border-box;
     @include project_title_shadow;
@@ -286,7 +305,7 @@ $title-background: #f7f7f7;
 .project_description_TC{
     width: 276px;
     margin-top: 4px;
-    font-family: "Noto Sans Traditional Chinese";
+    font-family: "Noto Sans TC";
     font-size: 14px;
     font-weight: 400;
     @include letterspacing;
@@ -389,6 +408,89 @@ $title-background: #f7f7f7;
     text-align: center; 
 }
 
+//home media query
+
+@media only screen and (max-width: 880px) {
+    #selfintroduction{
+        background-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #selfintroduction{
+        padding: 60px 60px;
+    }
+
+    .project{
+        flex-direction: column;
+        padding: 28px 60px;
+    }
+
+    .project_img{
+        display: none;
+    }
+
+    .project_img_rwd{
+        display: block;
+    }
+
+    .project_img_rwd img{
+        width: calc(100vw - 120px)
+    }
+
+    .project_info{
+        position: relative;
+        bottom: 54px;
+        width: 100%;
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .project_info_odd{
+        position: relative;
+        bottom: 52px;
+        width: 100%;
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+
+    }
+
+    .project_title_TC{
+        width: 100%;
+    }    
+
+    .project_title_Eng{
+        width: 100%;
+    }    
+
+    .project_tagcontainer{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .project_description_TC{
+        width: 100%;
+    }
+    
+    .project_description_Eng{
+        width: 100%;
+    }
+
+    .project_entrancecontainer{
+        width: 100%;
+    }
+
+    .project_passwordinput{
+        width: calc(100% - 64px);
+    }    
+}    
+
 //project
 
 .projectcontent{
@@ -417,7 +519,7 @@ $title-background: #f7f7f7;
 }
 
 #projectpage_svc_header_TC{
-    font-family: "Noto Sans Traditional Chinese";
+    font-family: "Noto Sans TC";
     font-size: 22px;
     font-weight: 600;
 }
@@ -439,7 +541,7 @@ $title-background: #f7f7f7;
 
 .projectpage_svc_title_TC{
     display: inline-block;
-    font-family: "Noto Sans Traditional Chinese";
+    font-family: "Noto Sans TC";
     font-size: 18px;
     font-weight: 500;
     @include letterspacing;
@@ -459,7 +561,7 @@ $title-background: #f7f7f7;
 }
 
 .projectpage_svc_subtitle_TC{
-    font-family: "Noto Sans Traditional Chinese";
+    font-family: "Noto Sans TC";
     font-size: 16px;
     font-weight: 600;
     @include letterspacing;
@@ -474,7 +576,7 @@ $title-background: #f7f7f7;
 
 .projectpage_svc_p_TC{
     width: 520px;
-    font-family: "Noto Sans Traditional Chinese";
+    font-family: "Noto Sans TC";
     font-size: 16px;
     font-weight: 400;
     line-height: 1.375;
@@ -539,4 +641,16 @@ $title-background: #f7f7f7;
 
 .img_project_svc_screen{
     width:800px;
+}
+
+#project_svc-img-1{
+    width: 570px;
+}
+
+#project_svc-img-4{
+    width: 374px;
+}
+
+#project_svc-img-11{
+    width: 689px;
 }
