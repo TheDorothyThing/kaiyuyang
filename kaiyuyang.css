@@ -592,13 +592,13 @@ body::-webkit-scrollbar {
           box-sizing: border-box;
 }
 
-#projectpage_svc_header {
-  width: 228px;
+.projectpage_svc_header {
   height: 68px;
   margin-top: 24px;
   margin-bottom: 24px;
+  padding: 0px 8px;
   border-style: solid;
-  border-width: 2px 0px;
+  border-width: 2.5px 0px;
   border-color: #242424;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -615,14 +615,14 @@ body::-webkit-scrollbar {
           align-items: center;
 }
 
-#projectpage_svc_header_TC {
+.projectpage_svc_header_TC {
   font-family: "Noto Sans TC";
   font-size: 22px;
   font-weight: 600;
 }
 
-#projectpage_svc_header_Eng {
-  margin-top: 8px;
+.projectpage_svc_header_Eng {
+  margin-top: 12px;
   font-family: "Montserrat";
   font-size: 16px;
   font-weight: 600;
@@ -674,6 +674,38 @@ body::-webkit-scrollbar {
 
 .projectpage_svc_p_TC {
   width: 520px;
+  font-family: "Noto Sans TC";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  letter-spacing: .3px;
+}
+
+.projectpage_svc_p_TC a {
+  text-decoration: underline;
+  color: #242424;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.projectpage_svc_p_TC a:hover {
+  text-decoration: underline;
+  color: #606060;
+}
+
+.projectpage_svc_p_TC a:active {
+  text-decoration: underline;
+  color: #808080;
+}
+
+.projectpage_svc_ul {
+  width: calc(100% - 200px);
+  margin: 0px 100px 24px 100px;
+}
+
+.projectpage_svc_ul_TC {
+  width: 520px;
+  margin: 0px;
   font-family: "Noto Sans TC";
   font-size: 16px;
   font-weight: 400;
@@ -770,5 +802,43 @@ body::-webkit-scrollbar {
 
 #project_svc-img-11 {
   width: 689px;
+}
+
+.img_kaomojiru_hifiwireframe {
+  width: 960px;
+  margin-right: 24px;
+  -webkit-box-shadow: 0px 3px 16px #24242412;
+          box-shadow: 0px 3px 16px #24242412;
+}
+
+#img_kaomojiru_additionaldemand {
+  width: 960px;
+  -webkit-box-shadow: 0px 3px 16px #24242412;
+          box-shadow: 0px 3px 16px #24242412;
+}
+
+.img_sekretmeeting_context {
+  width: 320px;
+  margin-right: 24px;
+  -webkit-box-shadow: 0px 3px 16px #24242412;
+          box-shadow: 0px 3px 16px #24242412;
+}
+
+#img_sekretmeeting_textwireframe {
+  width: 3600px;
+}
+
+.img_sekretmeeting_hifiwireframe_android {
+  width: 320px;
+  margin-right: 24px;
+  -webkit-box-shadow: 0px 3px 16px #24242412;
+          box-shadow: 0px 3px 16px #24242412;
+}
+
+.img_sekretmeeting_hifiwireframe_ios {
+  width: 340px;
+  margin-right: 24px;
+  -webkit-box-shadow: 0px 3px 16px #24242412;
+          box-shadow: 0px 3px 16px #24242412;
 }
 /*# sourceMappingURL=kaiyuyang.css.map */

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kaiyuyang.css">
+    <link rel="stylesheet" href="CSSReset.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Noto+Sans+Traditional+Chinese:400,700|Montserrat:400,500,600,700">
+    <title>kaiyuyang | Meeting Scheduling</title>
+</head>
+
+<body>
+    <div id="header">
+        <a id="logo" href="index.html">kaiyu<br>yang</a>
+        <a id="h-btn-work">work</a>
+        <a id="h-btn-about">about</a>
+        <button id="h-btn-resume">download résumé</button>
+    </div>
+    <div class="projectcontent">
+        <div class="projectpage_svc_header">
+            <h1 class="projectpage_svc_header_TC">會議預約功能</h1>
+            <h1 class="projectpage_svc_header_Eng">Meeting Scheduling</h1>
+        </div>
+        <div class="projectpage_svc_title">
+            <h2 class="projectpage_svc_title_TC">背景</h2>
+            <h2 class="projectpage_svc_title_Eng">Background</h2>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                這是一個公司創辦人兼產品經理在與公司重要使用者聊過後，希望能夠在主力產品「Sekret」上的功能。「Sekret」是一款通訊軟體，特點是它採用由中研院研發的加密模組為所有使用者發送的訊息及使用者間的音視訊通話進行端對端加密，有Android、iOS及桌機版。
+                <br><br>開發時程為一個月，內部分工上團隊夥伴Sunny負責桌機版的設計，我負責Android及iOS版的設計。
+            </div>
+        </div>
+        <div class="projectpage_svc_title">
+            <h2 class="projectpage_svc_title_TC">前後關係</h2>
+            <h2 class="projectpage_svc_title_Eng">Context</h2>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                「Sekret」的基本架構不太複雜，手機版在開啟App後，進入下方三個按鈕的分頁中的「訊息頁」，接著使用者可再點擊進入「通訊錄頁」或「設定頁」；而從「訊息頁」點擊任一聊天室，或從「通訊錄頁」點擊任一使用者或群組，皆可進入聊天室來發送訊息，或開始音視訊。
+            </div>
+        </div>
+        <div class="projectpage_svc_img_scroll">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_context-img-1.png" alt="project_sekretmeeting_context-img-1" class="img_sekretmeeting_context">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_context-img-2.png" alt="project_sekretmeeting_context-img-2" class="img_sekretmeeting_context">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_context-img-3.png" alt="project_sekretmeeting_context-img-3" class="img_sekretmeeting_context">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_context-img-4.png" alt="project_sekretmeeting_context-img-4" class="img_sekretmeeting_context">
+        </div>
+        <div class="projectpage_svc_title">
+            <h2 class="projectpage_svc_title_TC">使用者流程</h2>
+            <h2 class="projectpage_svc_title_Eng">User Flow</h2>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                由於是新功能且開發時間短，以最小可行為原則；區分出一個預約會議事件中會有「會議發起人」與「會議受邀人」兩種角色後，再考慮到產品經理提出的「若收到會議邀請，需要有系統推播」、「會議受邀人需要能夠拒絕加入會議」、「會議前需要有提醒」三個要求，便可大致定義他們分別的必要流程。
+            </div>
+        </div>
+        <div class="projectpage_svc_img">
+            <img src="img_project_sekretmeeting/project_sekretmeeting-img-1.svg" alt="project_sekretmeeting-img-1">
+        </div>
+        <div class="projectpage_svc_subtitle">
+            <div class="projectpage_svc_subtitle_TC">發起會議</div>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                上方流程圖中會議發起人的「發起預約會議」流程中，需再細分出「開啟輸入會議資訊以預約會議」、「輸入會議資訊及選擇會議受邀人」及「使系統開始預約會議」等流程，分別可以按鈕及頁面中的輸入格來完成，如下圖所示：
+            </div>
+        </div>
+        <div class="projectpage_svc_img">
+            <img src="img_project_sekretmeeting/project_sekretmeeting-img-2.svg" alt="project_sekretmeeting-img-2">
+        </div>
+        <div class="projectpage_svc_subtitle">
+            <div class="projectpage_svc_subtitle_TC">收到會議受邀通知＆收到會議提醒</div>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                為了讓會議提醒能盡量即時地出現，「會議受邀通知」與「會議提醒」在手機平台上決定使用推播來進行提醒。另外，為了讓新功能更簡單，會議提醒通知在現階段暫固定為會議開始時間前30分鐘，而不讓使用者自行決定會議提醒時間。
+            </div>
+        </div>
+        <div class="projectpage_svc_subtitle">
+            <div class="projectpage_svc_subtitle_TC">查看已預約 / 受邀會議</div>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                在會議預約成功後，無論是會議發起人或是會議受邀人，皆應要能夠隨時可查看其所可參與的會議；而對於某一場會議是發起人的使用者，對於另一場會議可能是受邀人，因此只需一併顯示「自己可參加的會議」即可，發起人之於他自己發起的會議，自動認定他必定會參加。因此可確立以下流程圖：
+            </div>
+        </div>
+        <div class="projectpage_svc_img">
+            <img src="img_project_sekretmeeting/project_sekretmeeting-img-3.svg" alt="project_sekretmeeting-img-3">
+        </div>
+        <div class="projectpage_svc_subtitle">
+            <div class="projectpage_svc_subtitle_TC">參與會議</div>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                當會議時間到了，在「會議詳細資訊頁面」中就會出現可進入會議的按鈕，點擊後即可進入會議。
+            </div>
+        </div>
+        <div class="projectpage_svc_subtitle">
+            <div class="projectpage_svc_subtitle_TC">整體架構</div>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                所有目前列出的頁面當中，如果要選擇一個頁面作為整個功能的起始頁，最適合的是「可參與會議列表」的頁面；而「發起會議」流程當中的第一個「預約會議」按鈕也應該放在此起始頁當中，而第二個「預約會議」按鈕也可直接放在「會議資訊輸入頁」中，點擊後返回會議列表；會議列表中的任一項目點擊後可進入會議詳細資訊頁，若會議時間已到，可點擊「參與會議」按鈕進入會議。
+            </div>
+        </div>
+        <div class="projectpage_svc_img">
+            <img src="img_project_sekretmeeting/project_sekretmeeting-img-4.svg" alt="project_sekretmeeting-img-4">
+        </div>
+        <div class="projectpage_svc_title">
+            <h2 class="projectpage_svc_title_TC">文字版</h2>
+            <h2 class="projectpage_svc_title_Eng">Wireframes Wireframes with plain text</h2>
+        </div>
+        <div class="projectpage_svc_p">
+            <div class="projectpage_svc_p_TC">
+                有了大略的流程後，再以各個頁面為基礎，列出每個頁面所需要包含的元件及他們的互動需求：
+            </div>
+        </div>
+        <div class="projectpage_svc_img_scroll">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_textwireframe-img.png" alt="project_sekretmeeting_textwireframe-img" id="img_sekretmeeting_textwireframe">
+        </div>
+        <div class="projectpage_svc_title">
+            <h2 class="projectpage_svc_title_Eng">Hi-Fi Wireframes</h2>
+        </div>
+        <div class="projectpage_svc_subtitle">
+            <div class="projectpage_svc_subtitle_TC">Android版</div>
+        </div>
+        <div class="projectpage_svc_img_scroll">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-1.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-2.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-3.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-4.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-5.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-6.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-7.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-8.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-9.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-10.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-11.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-12.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-13.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-14.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-15.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-16.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-17.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-18.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-19.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-20.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-21.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-android-img-22.png" alt="project_sekretmeeting_hifiwireframe-android-img-1" class="img_sekretmeeting_hifiwireframe_android">
+        </div>
+        <div class="projectpage_svc_subtitle">
+            <div class="projectpage_svc_subtitle_TC">iOS版</div>
+        </div>
+        <div class="projectpage_svc_img_scroll">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-1.png" alt="project_sekretmeeting_hifiwireframe-ios-img-1" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-2.png" alt="project_sekretmeeting_hifiwireframe-ios-img-2" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-3.png" alt="project_sekretmeeting_hifiwireframe-ios-img-3" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-4.png" alt="project_sekretmeeting_hifiwireframe-ios-img-4" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-5.png" alt="project_sekretmeeting_hifiwireframe-ios-img-5" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-6.png" alt="project_sekretmeeting_hifiwireframe-ios-img-6" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-7.png" alt="project_sekretmeeting_hifiwireframe-ios-img-7" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-8.png" alt="project_sekretmeeting_hifiwireframe-ios-img-8" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-9.png" alt="project_sekretmeeting_hifiwireframe-ios-img-9" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-10.png" alt="project_sekretmeeting_hifiwireframe-ios-img-10" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-11.png" alt="project_sekretmeeting_hifiwireframe-ios-img-11" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-12.png" alt="project_sekretmeeting_hifiwireframe-ios-img-12" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-13.png" alt="project_sekretmeeting_hifiwireframe-ios-img-13" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-14.png" alt="project_sekretmeeting_hifiwireframe-ios-img-14" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-15.png" alt="project_sekretmeeting_hifiwireframe-ios-img-15" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-16.png" alt="project_sekretmeeting_hifiwireframe-ios-img-16" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-17.png" alt="project_sekretmeeting_hifiwireframe-ios-img-17" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-18.png" alt="project_sekretmeeting_hifiwireframe-ios-img-18" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-19.png" alt="project_sekretmeeting_hifiwireframe-ios-img-19" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-20.png" alt="project_sekretmeeting_hifiwireframe-ios-img-20" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-21.png" alt="project_sekretmeeting_hifiwireframe-ios-img-21" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-22.png" alt="project_sekretmeeting_hifiwireframe-ios-img-22" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-23.png" alt="project_sekretmeeting_hifiwireframe-ios-img-23" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-24.png" alt="project_sekretmeeting_hifiwireframe-ios-img-24" class="img_sekretmeeting_hifiwireframe_ios">
+            <img src="img_project_sekretmeeting/project_sekretmeeting_hifiwireframe-ios-img-25.png" alt="project_sekretmeeting_hifiwireframe-ios-img-25" class="img_sekretmeeting_hifiwireframe_ios">
+        </div>
+    </div>
+    <div class="footer">
+        <h6>© 2021 kaiyuyang</h6>
+    </div>
+</body>
+
+</html>

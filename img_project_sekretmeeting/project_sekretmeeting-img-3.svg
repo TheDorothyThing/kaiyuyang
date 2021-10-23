@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="434" height="242" viewBox="0 0 434 242">
+    <defs>
+        <style>
+            .cls-1{fill:#ededed}.cls-2,.cls-5{fill:#1a1a1a}.cls-2{font-size:16px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-5{font-size:14px;font-family:NotoSansTC-Regular,Noto Sans TC}
+        </style>
+    </defs>
+    <g id="project-sekretmeeting-img-3" transform="translate(-474 -2592)">
+        <g id="Group_387" data-name="Group 387" transform="translate(398.633 875)">
+            <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-1" width="156" height="146" rx="10" transform="translate(353.367 1717)"/>
+            <text id="會議詳細資訊" class="cls-2" transform="translate(383.367 1748)"><tspan x="0" y="0">會議詳細資訊</tspan></text>
+        </g>
+        <g id="Group_400" data-name="Group 400" transform="translate(120.633 875)">
+            <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-1" width="156" height="146" rx="10" transform="translate(353.367 1717)"/>
+            <text id="預約會議列表" class="cls-2" transform="translate(383.367 1748)"><tspan x="0" y="0">預約會議列表</tspan></text>
+        </g>
+        <g id="Group_386" data-name="Group 386" transform="translate(146.5 708)">
+            <path id="Line_16" data-name="Line 16" transform="translate(489.5 1957.5)" style="fill:none;stroke:#707070" d="M0 0h105"/>
+            <g id="Polygon_6" data-name="Polygon 6" style="fill:#707070">
+                <path d="M6.816 6.399H.85l2.983-5.37L6.816 6.4z" style="stroke:none" transform="rotate(90 -677.334 1276.333)"/>
+                <path d="M3.833 2.06 1.7 5.898h4.266l-2.133-3.84m0-2.059 3.832 6.899H0L3.833 0z" style="fill:#707070;stroke:none" transform="rotate(90 -677.334 1276.333)"/>
+            </g>
+        </g>
+        <text id="以_頁面_來列出所有自己可參與的會議_並且點擊任一會議後可進入該會議的詳細資訊頁面_" data-name="以「頁面」來列出所有自己可參與的會議，並且點擊任一會議後可進入該會議的詳細資訊頁面。" class="cls-5" transform="translate(474 2754)"><tspan x="0" y="16">以「頁面」來列出所有自</tspan><tspan x="0" y="36">己可參與的會議，並且點</tspan><tspan x="0" y="56">擊任一會議後可進入該會</tspan><tspan x="0" y="76">議的詳細資訊頁面。</tspan></text>
+        <text id="以_頁面_來呈現該會議被建立時_會議發起人所輸入的所有會議相關資訊_" data-name="以「頁面」來呈現該會議被建立時，會議發起人所輸入的所有會議相關資訊。" class="cls-5" transform="translate(752 2754)"><tspan x="0" y="16">以「頁面」來呈現該會議</tspan><tspan x="0" y="36">被建立時，會議發起人所</tspan><tspan x="0" y="56">輸入的所有會議相關資</tspan><tspan x="0" y="76">訊。</tspan></text>
+    </g>
+</svg>

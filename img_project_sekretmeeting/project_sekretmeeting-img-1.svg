@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="871" height="126" viewBox="0 0 871 126">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#1a1a1a}.cls-1{font-size:18px;font-family:NotoSansTC-Bold,Noto Sans TC;font-weight:700}.cls-2,.cls-4{font-size:16px;font-family:NotoSansTC-Medium,Noto Sans TC;font-weight:500}.cls-3{fill:#505050}.cls-4{fill:#fff}
+        </style>
+    </defs>
+    <g id="project-sekretmeeting-img-1" transform="translate(-248 -1522)">
+        <text id="會議發起人" class="cls-1" transform="translate(248 1548)"><tspan x="0" y="0">會議發起人</tspan></text>
+        <text id="_" data-name="→" class="cls-2" transform="translate(500 1548)"><tspan x="0" y="0">→</tspan></text>
+        <text id="_2" data-name="→" class="cls-2" transform="translate(532 1636)"><tspan x="0" y="0">→</tspan></text>
+        <text id="_3" data-name="→" class="cls-2" transform="translate(717 1636)"><tspan x="0" y="0">→</tspan></text>
+        <text id="_4" data-name="→" class="cls-2" transform="translate(857 1636)"><tspan x="0" y="0">→</tspan></text>
+        <text id="_5" data-name="→" class="cls-2" transform="translate(1013 1636)"><tspan x="0" y="0">→</tspan></text>
+        <text id="_6" data-name="→" class="cls-2" transform="translate(640 1548)"><tspan x="0" y="0">→</tspan></text>
+        <text id="_7" data-name="→" class="cls-2" transform="translate(796 1548)"><tspan x="0" y="0">→</tspan></text>
+        <text id="會議受邀人" class="cls-1" transform="translate(248 1636)"><tspan x="0" y="0">會議受邀人</tspan></text>
+        <g id="Group_77" data-name="Group 77" transform="translate(25 -195)">
+            <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-3" width="120" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="發起預約會議" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">發起預約會議</tspan></text>
+        </g>
+        <g id="Group_373" data-name="Group 373" transform="translate(25 -107)">
+            <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-3" width="152" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="收到會議受邀通知" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">收到會議受邀通知</tspan></text>
+        </g>
+        <g id="Group_374" data-name="Group 374" transform="translate(197 -107)">
+            <rect id="Rectangle_70-3" data-name="Rectangle 70" class="cls-3" width="165" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="接受_拒絕會議邀請" data-name="接受 / 拒絕會議邀請" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">接受 / 拒絕會議邀請</tspan></text>
+        </g>
+        <g id="Group_370" data-name="Group 370" transform="translate(165 -195)">
+            <rect id="Rectangle_70-4" data-name="Rectangle 70" class="cls-3" width="120" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="收到會議提醒" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">收到會議提醒</tspan></text>
+        </g>
+        <g id="Group_375" data-name="Group 375" transform="translate(382 -107)">
+            <rect id="Rectangle_70-5" data-name="Rectangle 70" class="cls-3" width="120" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="收到會議提醒-2" data-name="收到會議提醒" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">收到會議提醒</tspan></text>
+        </g>
+        <g id="Group_372" data-name="Group 372" transform="translate(461 -195)">
+            <rect id="Rectangle_70-6" data-name="Rectangle 70" class="cls-3" width="88" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="參與會議" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">參與會議</tspan></text>
+        </g>
+        <g id="Group_377" data-name="Group 377" transform="translate(678 -107)">
+            <rect id="Rectangle_70-7" data-name="Rectangle 70" class="cls-3" width="88" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="參與會議-2" data-name="參與會議" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">參與會議</tspan></text>
+        </g>
+        <g id="Group_371" data-name="Group 371" transform="translate(305 -195)">
+            <rect id="Rectangle_70-8" data-name="Rectangle 70" class="cls-3" width="136" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="查看已預約會議" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">查看已預約會議</tspan></text>
+        </g>
+        <g id="Group_376" data-name="Group 376" transform="translate(522 -107)">
+            <rect id="Rectangle_70-9" data-name="Rectangle 70" class="cls-3" width="136" height="38" rx="10" transform="translate(353 1717)"/>
+            <text id="查看已受邀會議" class="cls-4" transform="translate(365 1743)"><tspan x="0" y="0">查看已受邀會議</tspan></text>
+        </g>
+    </g>
+</svg>
