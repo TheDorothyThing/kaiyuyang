@@ -382,7 +382,7 @@ body::-webkit-scrollbar {
   margin-top: 28px;
 }
 
-.project_passwordinput {
+#project_passwordinput_1 {
   width: 212px;
   height: 52px;
   border: 3px solid #242424;
@@ -401,27 +401,66 @@ body::-webkit-scrollbar {
   transition: .2s;
 }
 
-.project_passwordinput::-webkit-input-placeholder {
+#project_passwordinput_1::-webkit-input-placeholder {
   color: #aaaaaa;
 }
 
-.project_passwordinput:-ms-input-placeholder {
+#project_passwordinput_1:-ms-input-placeholder {
   color: #aaaaaa;
 }
 
-.project_passwordinput::-ms-input-placeholder {
+#project_passwordinput_1::-ms-input-placeholder {
   color: #aaaaaa;
 }
 
-.project_passwordinput::placeholder {
+#project_passwordinput_1::placeholder {
   color: #aaaaaa;
 }
 
-.project_passwordinput:hover {
+#project_passwordinput_1:hover {
   background-color: #fcfcfc;
 }
 
-.project_passwordbutton {
+#project_passwordinput_2 {
+  width: 212px;
+  height: 52px;
+  border: 3px solid #242424;
+  border-radius: 2px;
+  margin-right: 0px;
+  padding: 0px 8px 0px 16px;
+  color: #242424;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f7f7f7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#project_passwordinput_2::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+
+#project_passwordinput_2:-ms-input-placeholder {
+  color: #aaaaaa;
+}
+
+#project_passwordinput_2::-ms-input-placeholder {
+  color: #aaaaaa;
+}
+
+#project_passwordinput_2::placeholder {
+  color: #aaaaaa;
+}
+
+#project_passwordinput_2:hover {
+  background-color: #fcfcfc;
+}
+
+#project_passwordbutton_1 {
   width: 52px;
   height: 52px;
   border: 3px solid #242424;
@@ -436,22 +475,121 @@ body::-webkit-scrollbar {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
+  cursor: pointer;
   -webkit-transition: .2s;
   transition: .2s;
 }
 
-.project_passwordbutton:hover {
+#project_passwordbutton_1:hover {
   background-color: #f7f7f7;
   color: #242424;
+}
+
+#project_passwordbutton_2 {
+  width: 52px;
+  height: 52px;
+  border: 3px solid #242424;
+  border-radius: 2px;
+  margin-left: 0px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #242424;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#project_passwordbutton_2:hover {
+  background-color: #f7f7f7;
+  color: #242424;
+}
+
+.project_entrance_message {
+  width: 100%;
+  height: 28px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.project_entrance_message_empty {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0%;
+}
+
+.project_entrance_message_error {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0%;
+}
+
+.project_entrance_message_empty_TC {
+  font-family: "Noto Sans TC";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.project_entrance_message_empty_Eng {
+  position: relative;
+  top: 1.5px;
+  margin-left: 12px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.project_entrance_message_error_TC {
+  font-family: "Noto Sans TC";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.project_entrance_message_error_Eng {
+  position: relative;
+  top: 1.5px;
+  margin-left: 12px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .project_entrancebutton {
   width: 100%;
   height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: 3px solid #242424;
   border-radius: 2px;
   background-color: #242424;
   color: #ffffff;
+  text-decoration: none;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 500;
@@ -570,7 +708,10 @@ body::-webkit-scrollbar {
   .project_entrancecontainer {
     width: 100%;
   }
-  .project_passwordinput {
+  #project_passwordinput_1 {
+    width: calc(100% - 64px);
+  }
+  #project_passwordinput_2 {
     width: calc(100% - 64px);
   }
 }

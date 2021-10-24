@@ -327,7 +327,7 @@ $title-background: #f7f7f7;
     margin-top: 28px;
 }
 
-.project_passwordinput{
+@mixin project_passwordinput{
     width: 212px;
     height: 52px;
     border: 3px solid #242424;
@@ -344,15 +344,31 @@ $title-background: #f7f7f7;
     transition: .2s;
 }
 
-.project_passwordinput::placeholder{
+#project_passwordinput_1{
+    @include project_passwordinput;
+}
+
+#project_passwordinput_1::placeholder{
     color: #aaaaaa;
 }
 
-.project_passwordinput:hover{
+#project_passwordinput_1:hover{
     background-color: #fcfcfc;
 }
 
-.project_passwordbutton{
+#project_passwordinput_2{
+    @include project_passwordinput;
+}
+
+#project_passwordinput_2::placeholder{
+    color: #aaaaaa;
+}
+
+#project_passwordinput_2:hover{
+    background-color: #fcfcfc;
+}
+
+@mixin project_passwordbutton{
     width: 52px;
     height: 52px;
     border: 3px solid #242424;
@@ -366,21 +382,95 @@ $title-background: #f7f7f7;
     background-color: #242424;
     box-sizing: border-box;
     outline: none;
+    cursor: pointer;
     transition: .2s;
 }
 
-.project_passwordbutton:hover{
+#project_passwordbutton_1{
+    @include project_passwordbutton;
+}
+
+#project_passwordbutton_1:hover{
     background-color: $title-background;
     color: #242424;
+}
+
+#project_passwordbutton_2{
+    @include project_passwordbutton;
+}
+
+#project_passwordbutton_2:hover{
+    background-color: $title-background;
+    color: #242424;
+}
+
+.project_entrance_message{
+    width: 100%;
+    height: 28px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.project_entrance_message_empty{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    opacity: 0%;
+}
+
+.project_entrance_message_error{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    opacity: 0%;
+}
+
+@mixin project_entrance_message_TC {
+    font-family: "Noto Sans TC";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@mixin project_entrance_message_Eng{
+    position: relative;
+    top: 1.5px;
+    margin-left: 12px;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.project_entrance_message_empty_TC{
+    @include project_entrance_message_TC;
+}
+
+.project_entrance_message_empty_Eng{
+    @include project_entrance_message_Eng;
+}
+
+.project_entrance_message_error_TC{
+    @include project_entrance_message_TC;
+}
+
+.project_entrance_message_error_Eng{
+    @include project_entrance_message_Eng;
 }
 
 .project_entrancebutton{
     width: 100%;
     height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 3px solid #242424;
     border-radius: 2px;
     background-color: #242424;
     color: #ffffff;
+    text-decoration: none;
     font-family: "Montserrat";
     font-size: 18px;
     font-weight: 500;
@@ -486,8 +576,16 @@ $title-background: #f7f7f7;
         width: 100%;
     }
 
-    .project_passwordinput{
+    @mixin project_passwordinput_rwd{
         width: calc(100% - 64px);
+    }
+
+    #project_passwordinput_1{
+        @include project_passwordinput_rwd;
+    }    
+
+    #project_passwordinput_2{
+        @include project_passwordinput_rwd;
     }    
 }    
 
