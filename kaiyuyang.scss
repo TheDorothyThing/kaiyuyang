@@ -409,6 +409,7 @@ $title-background: #f7f7f7;
     height: 28px;
     margin-top: 8px;
     position: relative;
+    @include letterspacing;
 }
 
 .project_entrance_message_empty{

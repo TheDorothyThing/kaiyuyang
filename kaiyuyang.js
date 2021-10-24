@@ -21,9 +21,15 @@ var userpassinput_1 = document.getElementById("project_passwordinput_1").value;
 var userpassinput_2 = document.getElementById("project_passwordinput_2").value;
 
 function checkPassword_1() {
-    if (userpassinput_1 === passwords[22]) {
-        window.location.replace("project_svc.html");
-    } else if (userpassinput_1 === ""||userpassinput_1 === null) {
+    // if (document.getElementById("project_passwordinput_1").value == "123") {
+    //     document.getElementsByClassName("project_entrance_message_empty")[0].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
+    // }
+    // else {
+    //     document.getElementsByClassName("project_entrance_message_error")[0].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
+    // }
+     if (document.getElementById("project_passwordinput_1").value == passwords[22]) {
+        window.location.href="project_svc.html";
+    } else if (document.getElementById("project_passwordinput_1").value === ""||userpassinput_1 === null) {
         document.getElementsByClassName("project_entrance_message_empty")[0].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
     } else {
         document.getElementsByClassName("project_entrance_message_error")[0].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
@@ -31,10 +37,15 @@ function checkPassword_1() {
 }
 
 function checkPassword_2() {
-    if (userpassinput_2 === "123") {
-        document.getElementsByClassName("project_entrance_message_error")[1].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
-        //window.location.replace("project_sekretmeeting.html");
-    } else if (userpassinput_2 === ""||userpassinput_2 === null) {
+    // if (document.getElementById("project_passwordinput_2").value == "123") {
+    //     document.getElementsByClassName("project_entrance_message_empty")[1].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
+    // }
+    // else {
+    //     document.getElementsByClassName("project_entrance_message_error")[1].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
+    // }
+    if (document.getElementById("project_passwordinput_2").value == passwords[11]) {
+        window.location.href="project_sekretmeeting.html";
+    } else if (document.getElementById("project_passwordinput_2").value === ""||userpassinput_2 === null) {
         document.getElementsByClassName("project_entrance_message_empty")[1].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
     } else {
         document.getElementsByClassName("project_entrance_message_error")[1].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);

@@ -515,6 +515,7 @@ body::-webkit-scrollbar {
   height: 28px;
   margin-top: 8px;
   position: relative;
+  letter-spacing: .3px;
 }
 
 .project_entrance_message_empty {
