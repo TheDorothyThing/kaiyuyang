@@ -980,4 +980,10 @@ body::-webkit-scrollbar {
   -webkit-box-shadow: 0px 3px 16px #24242412;
           box-shadow: 0px 3px 16px #24242412;
 }
+
+.Project-svc-video {
+  width: 800px;
+  height: 450px;
+  margin-right: 24px;
+}
 /*# sourceMappingURL=kaiyuyang.css.map */
