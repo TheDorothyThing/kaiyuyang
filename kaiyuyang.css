@@ -63,9 +63,7 @@ body::-webkit-scrollbar {
   border: none;
   border-radius: 2px;
   background-color: #ffffff00;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -89,9 +87,7 @@ body::-webkit-scrollbar {
   border: none;
   border-radius: 2px;
   background-color: #ffffff00;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -132,6 +128,7 @@ body::-webkit-scrollbar {
   border: 3px solid #242424;
   border-radius: 2px;
   background-color: #242424;
+  display: none;
   color: #ffffff;
   font-family: "Montserrat";
   font-size: 14px;
