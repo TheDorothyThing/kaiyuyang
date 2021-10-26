@@ -22,7 +22,7 @@ var userpassinput_2 = document.getElementById("project_passwordinput_2").value;
 
 function checkPassword_1() {
      if (document.getElementById("project_passwordinput_1").value == passwords[22]) {
-        window.location.href="project_svc.html";
+        window.location.href="projects/project_svc.html";
     } else if (document.getElementById("project_passwordinput_1").value === ""||userpassinput_1 === null) {
         document.getElementsByClassName("project_entrance_message_empty")[0].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
     } else {
@@ -32,7 +32,7 @@ function checkPassword_1() {
 
 function checkPassword_2() {
     if (document.getElementById("project_passwordinput_2").value == passwords[11]) {
-        window.location.href="project_sekretmeeting.html";
+        window.location.href="projects/project_sekretmeeting.html";
     } else if (document.getElementById("project_passwordinput_2").value === ""||userpassinput_2 === null) {
         document.getElementsByClassName("project_entrance_message_empty")[1].animate(passwordInputMessageKeyframes, passwordInputMessageOptions);
     } else {
