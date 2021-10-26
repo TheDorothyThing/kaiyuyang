@@ -832,6 +832,7 @@ $title-background: #f7f7f7;
 #img_kaomojiru_additionaldemand{
     width: 960px;
     box-shadow: 0px 3px 16px #24242412;
+    border-radius: 8px;
 }
 
 .img_sekretmeeting_context{
@@ -1019,6 +1020,52 @@ $title-background: #f7f7f7;
     }
 
     #projectcontent_svc div:nth-child(73){
+        align-items: flex-start;
+    }
+}
+
+// project img containers media query_kaomojiru
+
+@media only screen and (max-width: 448px){
+    #projectcontent_kaomojiru div:nth-child(15){
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 433px){
+    #projectcontent_kaomojiru div:nth-child(17){
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #projectcontent_kaomojiru div:nth-child(22){
+        align-items: flex-start;
+    }
+}
+
+// project img containers media query_sekretmeeting
+
+@media only screen and (max-width: 1071px){
+    #projectcontent_sekretmeeting div:nth-child(9){
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 712px){
+    #projectcontent_sekretmeeting div:nth-child(12){
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 554px){
+    #projectcontent_sekretmeeting div:nth-child(17){
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 756px){
+    #projectcontent_sekretmeeting div:nth-child(22){
         align-items: flex-start;
     }
 }
