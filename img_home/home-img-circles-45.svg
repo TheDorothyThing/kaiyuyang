@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="667" height="667" viewBox="0 0 667 667">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_576" data-name="Rectangle 576" transform="translate(-11987 -13146)" style="opacity:.262;fill:#412323" d="M0 0h667v667H0z"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:#f7f7f7}
+        </style>
+    </defs>
+    <g id="home-img-circles-45" transform="translate(11987 13146)" style="clip-path:url(#clip-path)">
+        <g id="Group_416" data-name="Group 416">
+            <g id="Circles" transform="rotate(45 10019.971 -20880.683)">
+                <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="149.842" cy="149.842" r="149.842"/>
+                <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-3" cx="149.842" cy="149.842" r="149.842" transform="translate(249.737)"/>
+                <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-3" cx="149.842" cy="149.842" r="149.842" transform="translate(499.475)"/>
+            </g>
+            <path id="Rectangle_575" data-name="Rectangle 575" transform="translate(-11987.058 -13146.058)" style="fill:none;opacity:.262" d="M0 0h666.299v666.299H0z"/>
+        </g>
+    </g>
+</svg>

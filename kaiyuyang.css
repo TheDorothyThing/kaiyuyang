@@ -632,13 +632,15 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 768px) {
   #selfintroduction {
     padding: 60px 60px;
+    background-image: url(img_home/home-img-circles-45.svg);
+    background-size: 70%;
   }
   .project {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 28px 60px;
+    padding: 12px 60px 0px 60px;
   }
   .project_img {
     display: none;
@@ -651,7 +653,7 @@ body::-webkit-scrollbar {
   }
   .project_info {
     position: relative;
-    bottom: 54px;
+    bottom: 26px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -686,6 +688,7 @@ body::-webkit-scrollbar {
             box-sizing: border-box;
   }
   .project_title_TC {
+    margin-top: 0px;
     width: 100%;
   }
   .project_title_Eng {
@@ -711,6 +714,26 @@ body::-webkit-scrollbar {
   }
   #project_passwordinput_2 {
     width: calc(100% - 64px);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  #header {
+    padding: 0px 20px;
+  }
+  #selfintroduction {
+    background-image: url(img_home/home-img-circles-vertical.svg);
+    background-size: 45%;
+  }
+  .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 12px 28px 0px 28px;
+  }
+  .project_img_rwd img {
+    width: calc(100vw - 72px);
   }
 }
 

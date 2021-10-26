@@ -145,7 +145,6 @@ body::-webkit-scrollbar {
     background-size: 800px;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 #selfintroduction h2:nth-child(1){
@@ -511,11 +510,13 @@ $title-background: #f7f7f7;
 @media only screen and (max-width: 768px) {
     #selfintroduction{
         padding: 60px 60px;
+        background-image: url(img_home/home-img-circles-45.svg);
+        background-size: 70%;
     }
 
     .project{
         flex-direction: column;
-        padding: 28px 60px;
+        padding: 12px 60px 0px 60px;
     }
 
     .project_img{
@@ -532,7 +533,7 @@ $title-background: #f7f7f7;
 
     .project_info{
         position: relative;
-        bottom: 54px;
+        bottom: 26px;
         width: 100%;
         display: flex;
         padding: 0px 20px;
@@ -554,6 +555,7 @@ $title-background: #f7f7f7;
     }
 
     .project_title_TC{
+        margin-top: 0px;
         width: 100%;
     }    
 
@@ -590,6 +592,26 @@ $title-background: #f7f7f7;
         @include project_passwordinput_rwd;
     }    
 }    
+
+@media only screen and (max-width: 420px){
+    #header{
+        padding: 0px 20px;
+    }
+
+    #selfintroduction{
+        background-image: url(img_home/home-img-circles-vertical.svg);
+        background-size: 45%;
+    }
+
+    .project{
+        flex-direction: column;
+        padding: 12px 28px 0px 28px;
+    }
+
+    .project_img_rwd img{
+        width: calc(100vw - 72px)
+    }
+}
 
 //project
 
