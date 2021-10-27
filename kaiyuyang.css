@@ -124,16 +124,25 @@ body::-webkit-scrollbar {
 #h-btn-resume {
   width: 172px;
   height: 36px;
-  margin-left: 24px;
+  margin-left: calc(100% - 208px);
   border: 3px solid #242424;
   border-radius: 2px;
   background-color: #242424;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #ffffff;
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 500;
   letter-spacing: .3px;
+  text-decoration: none;
   white-space: nowrap;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
